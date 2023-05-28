@@ -3,6 +3,8 @@
 
 ### :man_technologist: About me:
 
+<img align="right" alt="Coding" width="400" src="https://cdn.videoplasty.com/animation/chill-coding-programming-lo-fi-animation-stock-animation-21874-1024x576.jpg">
+
 Hello! My name is Alexander Domanov and I am a Frontend developer specializing in React. I also plan on learning Vue and Angular to expand my skills in application development. Working in this field is not just my profession, but also the passion of my life. I strive to constantly learn and improve my skills to create better quality and innovative applications.
 
 In addition, I am interested in working with artificial intelligence and neural networks. I believe that these technologies have tremendous potential for changing our world for the better.
@@ -12,13 +14,18 @@ However, I also understand that teamwork is very important in our professional s
 
 I have a passion and love for my work - it gives me not only satisfaction but also an opportunity to contribute towards creating a better future. I am ready to take up challenges presented by new projects before me so that i can continue growing as a frontend developer.
 
-<img align="right" alt="Coding" width="400" src="https://cdn.videoplasty.com/animation/chill-coding-programming-lo-fi-animation-stock-animation-21874-1024x576.jpg">
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=lonegdd&label=Profile%20views&color=0e75b6&style=flat" alt="lonegdd" /> </p>
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 📫 How to reach me **alexanderdomanov.dev@gmail.com**
+- 🔭 I am currently working with a team on an awesome social network project
+- 🌱 Currently, I am learning: Next.js / GraphQL / Socket.io / Zustand / Tailwind / TanStackQuery
+- 💬 Feel free to ask me anything related to React / Next.js / Javascript / Typescript
+- 👨‍💻 You can read more about my projects at (the link will be added)
+- ⚡ Fun fact: I love coffee and have knowledge in specialty coffee. 
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
