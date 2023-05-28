@@ -1,5 +1,7 @@
 ![MasterHead](https://qrangers.com/wp-content/uploads/2021/09/Banner-Introduction-to-3D-Animation.png)
-<h1 align="center">Hi 👋, I'm Alexander Domanov</h1>
+<p align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=700&size=36&duration=4500&pause=1000&width=760&height=80&lines=Welcome+to+my+page!+%F0%9F%91%80" alt="Typing SVG" /></a>
+</p>
 
 ### :man_technologist: About me:
 
