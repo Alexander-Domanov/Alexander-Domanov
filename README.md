@@ -1,6 +1,17 @@
 ![MasterHead](https://qrangers.com/wp-content/uploads/2021/09/Banner-Introduction-to-3D-Animation.png)
 <h1 align="center">Hi 👋, I'm Alexander Domanov</h1>
-<h3 align="center">Frontend Developer - React.js | Redux | TypeScript</h3>
+
+### :man_technologist: About me:
+
+Hello! My name is Alexander Domanov and I am a Frontend developer specializing in React. I also plan on learning Vue and Angular to expand my skills in application development. Working in this field is not just my profession, but also the passion of my life. I strive to constantly learn and improve my skills to create better quality and innovative applications.
+
+In addition, I am interested in working with artificial intelligence and neural networks. I believe that these technologies have tremendous potential for changing our world for the better.
+
+It is very important for me to consider user needs, so I always try to make applications as convenient and easy-to-use as possible. My motto is "from complex to simple" because experience shows that it is the ideal strategy for achieving success.
+However, I also understand that teamwork is very important in our professional sphere. I am always ready to exchange experiences and ideas, as well as accept criticism and draw conclusions for further development.
+
+I have a passion and love for my work - it gives me not only satisfaction but also an opportunity to contribute towards creating a better future. I am ready to take up challenges presented by new projects before me so that i can continue growing as a frontend developer.
+
 <img align="right" alt="Coding" width="400" src="https://cdn.videoplasty.com/animation/chill-coding-programming-lo-fi-animation-stock-animation-21874-1024x576.jpg">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=lonegdd&label=Profile%20views&color=0e75b6&style=flat" alt="lonegdd" /> </p>
