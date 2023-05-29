@@ -5,12 +5,12 @@
 </h1>
 
 <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=700&size=36&duration=4000&pause=1000&center=true&vCenter=true&width=760&height=80&lines=Welcome+to+my+page!+%F0%9F%91%80" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img  src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=700&size=36&duration=4000&pause=1000&center=true&vCenter=true&width=760&height=80&lines=Welcome+to+my+page!+%F0%9F%91%80" alt="Typing SVG" /></a>
 </p>
 
 ### :man_technologist: About me:
 
-<img align="right" alt="Coding" width="400" src="https://media.tenor.com/3bTxZ4HdrysAAAAC/pixels-neon.gif">
+<img align="right" width="400"  height="250" alt="GIF" src="https://media.tenor.com/3bTxZ4HdrysAAAAC/pixels-neon.gif">
 
 Hello! My name is Alexander Domanov and I am a Frontend developer specializing in React. I also plan on learning Vue and Angular to expand my skills in application development. Working in this field is not just my profession, but also the passion of my life. I strive to constantly learn and improve my skills to create better quality and innovative applications.
 
