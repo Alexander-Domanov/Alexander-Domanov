@@ -10,7 +10,7 @@
 
 ### :man_technologist: About me:
 
-<img align="right" alt="Coding" width="400" src="https://cdn.videoplasty.com/animation/chill-coding-programming-lo-fi-animation-stock-animation-21874-1024x576.jpg">
+<img align="right" alt="Coding" width="400" src="https://media.tenor.com/3bTxZ4HdrysAAAAC/pixels-neon.gif">
 
 Hello! My name is Alexander Domanov and I am a Frontend developer specializing in React. I also plan on learning Vue and Angular to expand my skills in application development. Working in this field is not just my profession, but also the passion of my life. I strive to constantly learn and improve my skills to create better quality and innovative applications.
 
