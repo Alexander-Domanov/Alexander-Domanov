@@ -1,6 +1,6 @@
 ![MasterHead](https://i.redd.it/1asyzovvrn8a1.gif)
 <h1 align="center">
-  <img src="GIF/Earth.gif" width="24px">
+ <img src="GIF/Earth.gif" width="32">
   𝐇𝐞𝐥𝐥𝐨, &lt;𝚌𝚘𝚍𝚎𝚛𝚜/&gt;!
   <img src="GIF/Hi.gif" width="40px" />
 </h1>
