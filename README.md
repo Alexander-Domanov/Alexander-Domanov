@@ -2,7 +2,6 @@
 <h1 align="center">
  <img src="GIF/Earth.gif" width="32">
   𝐇𝐞𝐥𝐥𝐨, &lt;𝚌𝚘𝚍𝚎𝚛𝚜/&gt;!
-  <img src="GIF/Code.gif" width="32" />
 </h1>
 
 <p align="center">
