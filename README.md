@@ -33,7 +33,7 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 <br/>
 <br/>
 
-<img align="right" height="250px" width="250px" alt="𝙶𝙸𝙵" src="GIF/1000110.gif"/>
+<img align="right" height="200" width="300" alt="𝙶𝙸𝙵" src="GIF/1000110.gif"/>
 
 - 🔭 I am currently working with a team on an awesome social network project
 - 🌱 Currently, I am learning: Next.js / GraphQL / Socket.io / Zustand / Tailwind / TanStackQuery
