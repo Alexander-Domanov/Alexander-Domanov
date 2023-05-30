@@ -25,7 +25,21 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=lonegdd&label=Profile%20views&color=0e75b6&style=flat" alt="lonegdd" /> </p>
 
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
+<p align="center">
+ <img width="600" src="github-snake.svg" alt="snake"/>
+</p>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+
+<img align="right" height="250px" width="300px" alt="𝙶𝙸𝙵" src="GIF/1000110.gif"/>
 
 - 🔭 I am currently working with a team on an awesome social network project
 - 🌱 Currently, I am learning: Next.js / GraphQL / Socket.io / Zustand / Tailwind / TanStackQuery
@@ -33,6 +47,13 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 - 👨‍💻 You can read more about my projects at (the link will be added)
 - 🤝  I'm open to collaborating on interesting projects
 - ⚡ Fun fact: I love coffee and have knowledge in specialty coffee. 
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 <h3 align="left">Connect with me:</h3>
