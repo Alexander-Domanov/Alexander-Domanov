@@ -47,7 +47,10 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 
 #
 
-<h3 align="left">Connect with me:</h3>
+<h3>
+  Connect With Me
+  <img src="GIF/Handshake.gif" height="25px">
+</h3>
 <p align="left">
 <a href="https://www.linkedin.com/in/alexander-domanov/"><img src="https://img.shields.io/badge/linkedin-0A66C2?&style=for-the-badge&logo=linkedin&logoColor=white" height=25></a>
 <a href="https://t.me/alexanderdomanov"><img src="https://img.shields.io/badge/Telegram-26A5E4?&style=for-the-badge&logo=telegram&logoColor=white" height=25></a>
