@@ -10,7 +10,7 @@
 
 ### :man_technologist: About me:
 
-<img align="right" width="400"  height="250" alt="GIF" src="https://media.tenor.com/3bTxZ4HdrysAAAAC/pixels-neon.gif">
+<img padding-left="30px" align="right" width="400"  height="250" alt="GIF" src="https://media.tenor.com/3bTxZ4HdrysAAAAC/pixels-neon.gif">
 
 Hello! My name is Alexander Domanov and I am a Frontend developer specializing in React. I also plan on learning Vue and Angular to expand my skills in application development. Working in this field is not just my profession, but also the passion of my life. I strive to constantly learn and improve my skills to create better quality and innovative applications.
 
