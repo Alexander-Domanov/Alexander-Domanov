@@ -1,4 +1,5 @@
 ![MasterHead](https://i.redd.it/1asyzovvrn8a1.gif)
+
 <h1 align="center">
  <img src="GIF/Earth.gif" width="32">
   𝐇𝐞𝐥𝐥𝐨, &lt;𝚌𝚘𝚍𝚎𝚛𝚜/&gt;!
@@ -8,7 +9,9 @@
 <a href="https://git.io/typing-svg"><img  src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=700&size=36&duration=4000&pause=1000&center=true&vCenter=true&width=760&height=80&lines=Welcome+to+my+page!+%F0%9F%91%80" alt="Typing SVG" /></a>
 </p>
 
-### :man_technologist: About me:
+### 
+
+:man_technologist: About me:
 
 <img padding-left="30px" align="right" width="400"  height="250" alt="GIF" src="https://media.tenor.com/3bTxZ4HdrysAAAAC/pixels-neon.gif">
 
@@ -27,6 +30,9 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 <p align="center">
  <img width="600" src="github-snake.svg" alt="snake"/>
 </p>
+
+<br/>
+<br/>
 
 #
 
@@ -47,6 +53,9 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 
 #
 
+<br/>
+<br/>
+
 <h3>
   Connect With Me
   <img src="GIF/Handshake.gif" height="25px">
@@ -56,12 +65,24 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 <a href="https://t.me/alexanderdomanov"><img src="https://img.shields.io/badge/Telegram-26A5E4?&style=for-the-badge&logo=telegram&logoColor=white" height=25></a>
 <a href="https://alexanderdomanov.dev@gmail.com"><img src="https://img.shields.io/badge/gmail-EA4335?&style=for-the-badge&logo=telegram&logoColor=white" height=25></a>
  
+ <br/>
+ <br/>
+ 
  #
  
- <p align="center">
- <img width="600" src="Play-Chrome-Dinosaur-Game.svg" alt="snake"/>
-</p>
+ <br/>
+ <br/>
  
+ <p align="center">
+ <img width="600" height="150" src="GIF/Play-Chrome-Dinosaur-Game.gif" alt="GIF"/>
+</p>
+
+ <br/>
+ <br/>
+ 
+  #
+  
+  
  <img align="right" height="150" width="150" alt="𝙶𝙸𝙵" src="GIF/cat.gif"/>
   
 <h3 align="left">Languages and Tools:</h3>
