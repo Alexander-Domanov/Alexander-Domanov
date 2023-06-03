@@ -104,22 +104,12 @@ I have a passion and love for my work - it gives me not only satisfaction but al
   </p>
 </details>
 <br/>
-
-<p align="center"> 
-  Visitor count<br>
-  <img src="https://profile-counter.glitch.me/alexander-domanov/count.svg" />
-</p>
-
-<br/>
 <br/>
 
 #
 
 <br/>
 <br/>
-
- ![trophy](https://github-profile-trophy.vercel.app/?username=alexander-domanov&column=9&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=oldie)
-
 <br/>
 
 <p align="center">
@@ -198,5 +188,13 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 <br/>
 
 #
+
+ ![trophy](https://github-profile-trophy.vercel.app/?username=alexander-domanov&column=9&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=oldie)
+
+
+<p align="center"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/alexander-domanov/count.svg" />
+</p>
 
 ![footer](footer.webp)
