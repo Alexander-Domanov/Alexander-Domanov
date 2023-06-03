@@ -117,6 +117,8 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 <br/>
 <br/>
 
+![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Alexander-Domanov&theme=high-contrast)
+
 #
 
 <br/>
@@ -146,10 +148,6 @@ I have a passion and love for my work - it gives me not only satisfaction but al
   Connect With Me
   <img src="GIF/Handshake.gif" height="25px">
 </h3> 
-
-
-
-
 
  <br/>
 <p align="center"> 
