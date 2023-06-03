@@ -159,7 +159,7 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 
 #
 
-<img align="right" height="250" width="450" alt="𝙶𝙸𝙵" src="GIF/connectWithMe.gif"/>
+<img align="right" height="250" width="300" alt="𝙶𝙸𝙵" src="GIF/connectWithMe.gif"/>
 
  <br/>
 <p > 
