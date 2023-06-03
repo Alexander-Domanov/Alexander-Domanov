@@ -63,7 +63,7 @@ I have a passion and love for my work - it gives me not only satisfaction but al
  
  <br/>
  
-
+<p align="left"> <a href="https://www.dev.to/Alexander-Domanov" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto.svg" width="32" height="32" /></a> <a href="https://www.github.com/alexander-domanov" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/Alexander-Domanov" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="http://www.medium.com/@Alexander-Domanov" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="32" height="32" /></a></p>
  
  <br/>
  
@@ -124,6 +124,9 @@ I have a passion and love for my work - it gives me not only satisfaction but al
   </p>
 </details>
 
+ [![trophy](https://github-profile-trophy.vercel.app/?username=alexander-domanov&column=9&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=oldie)](https://github.com/ryo-ma/github-profile-trophy)
+ 
+
 <br/>
 
 <p align="center"> 
@@ -132,5 +135,29 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 </p>
 
 <br/>
+<br/>
+
+#
+
+
+
+
+#
+
+<br/>
+<br/>
+
+<h3>
+ 💻 Codewars:
+</h3>
+
+<br/>
+
+![codewars](https://www.codewars.com/users/Alexander-Domanov/badges/large)
+
+<br/>
+<br/>
+
+#
 
 ![footer](footer.webp)
