@@ -13,7 +13,7 @@
 
 :man_technologist: About me:
 
-<img padding-left="30px" align="right" width="400"  height="250" alt="GIF" src="https://media.tenor.com/3bTxZ4HdrysAAAAC/pixels-neon.gif">
+<img align="right" width="400"  height="250" alt="GIF" src="https://media.tenor.com/3bTxZ4HdrysAAAAC/pixels-neon.gif">
 
 Hello! My name is Alexander Domanov and I am a Frontend developer specializing in React. I also plan on learning Vue and Angular to expand my skills in application development. Working in this field is not just my profession, but also the passion of my life. I strive to constantly learn and improve my skills to create better quality and innovative applications.
 
@@ -148,10 +148,24 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 
 <br/>
 
-![codewars](https://www.codewars.com/users/Alexander-Domanov/badges/large)
+
+ <img align="right" height="250" width="450" alt="𝙶𝙸𝙵" src="GIF/Code.gif"/>
 
 <br/>
 <br/>
+<br/>
+<br/>
+
+<p align="left">
+
+![codewars](https://www.codewars.com/users/Alexander-Domanov/badges/large)
+ 
+</p>
+
+
+<br/>
+<br/>
+
 
 #
 
