@@ -149,7 +149,7 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 
 
 
-<img align="right" height="250" width="300" alt="𝙶𝙸𝙵" src="GIF/connectWithMe.gif"/>
+
 
  <br/>
 <p align="center"> 
@@ -162,11 +162,6 @@ I have a passion and love for my work - it gives me not only satisfaction but al
  <a href="https://www.linkedin.com/in/Alexander-Domanov" target="_blank" rel="noreferrer">
  <code><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="60" height="60"/></code>
  </a>
- </p>
- 
- #
- 
- <p align="center">
  <a href="https://www.dev.to/Alexander-Domanov" target="_blank" rel="noreferrer">
 <code><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto.svg" width="60" height="60" /></code>
  </a> 
@@ -180,6 +175,12 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 
 <br/>
 <br/>
+
+<p align="center">
+
+ <img align="center" height="150" width="600" alt="𝙶𝙸𝙵" src="GIF/connectWithMe.gif"/>
+</p>
+
 <br/>
 <br/>
 
