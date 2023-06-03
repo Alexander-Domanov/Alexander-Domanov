@@ -104,12 +104,9 @@ I have a passion and love for my work - it gives me not only satisfaction but al
   </p>
 </details>
 <br/>
-<br/>
 
 #
 
-<br/>
-<br/>
 <br/>
 
 <p align="center">
@@ -122,8 +119,12 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 ![GitHub metrics](https://metrics.lecoq.io/Alexander-Domanov)  
  
 </p>
+<br/>
+<br/>
 
+#
 
+<br/>
 
 <h3>
  💻 Codewars:
