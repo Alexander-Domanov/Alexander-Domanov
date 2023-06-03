@@ -148,18 +148,10 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 
 <br/>
 
-
  <img align="right" height="200" width="350" alt="𝙶𝙸𝙵" src="GIF/code-wars.gif"/>
-
-<br/>
-<br/>
-
-
-<p align="left">
  
  [![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=Alexander-Domanov&theme=dark)](https://github.com/ignacio-cuadra/github-readme-codewars)
  
-</p>
 
 <br/>
 <br/>
