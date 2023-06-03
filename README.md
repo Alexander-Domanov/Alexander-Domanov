@@ -124,8 +124,9 @@ I have a passion and love for my work - it gives me not only satisfaction but al
   </p>
 </details>
 
- [![trophy](https://github-profile-trophy.vercel.app/?username=alexander-domanov&column=9&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=oldie)](https://github.com/ryo-ma/github-profile-trophy)
- 
+ ![trophy](https://github-profile-trophy.vercel.app/?username=alexander-domanov&column=9&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=oldie)
+ ![𝚝𝚛𝚘𝚙𝚑𝚢](https://github-profile-trophy.vercel.app/?username=JayantGoel001&column=9&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=juicyfresh)
+
 
 <br/>
 
@@ -136,11 +137,6 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 
 <br/>
 <br/>
-
-#
-
-
-
 
 #
 
