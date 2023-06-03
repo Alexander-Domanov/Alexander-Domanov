@@ -157,7 +157,7 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 
 <p align="left">
  
-![codewars](https://www.codewars.com/users/Alexander-Domanov/badges/large)
+ [![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=Alexander-Domanov&theme=dark)](https://github.com/ignacio-cuadra/github-readme-codewars)
  
 </p>
 
