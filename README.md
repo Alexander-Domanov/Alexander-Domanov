@@ -118,6 +118,10 @@ I have a passion and love for my work - it gives me not only satisfaction but al
     <img align="center" src="https://github-readme-stats.vercel.app/api?username=Alexander-domanov&show_icons=true&hide_border=true&title_color=a855f7&amp&icon_color=ec4899&amp&text_color=6366f1&amp&bg_color=000000&count_private=true&include_all_commits=true"/>
    <img align="center" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alexander-Domanov&text_color=6366f1&bg_color=000000&title_color=a855f7&langs_count=15&layout=compact&hide_border=true" />
 </p>
+ <br/>
+ <p align="center">
+    <a align="center" href="http://www.github.com/alexander-domanov"><img src="https://github-readme-streak-stats.herokuapp.com/?user=alexander-domanov&stroke=6366f1&background=000000&ring=a855f7&fire=a855f7&currStreakNum=6366f1&currStreakLabel=a855f7&sideNums=6366f1&sideLabels=6366f1&dates=6366f1&hide_border=true" /></a>
+  </p>
 </details>
 
 <br/>
