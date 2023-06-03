@@ -149,7 +149,7 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 <br/>
 
 
- <img align="right" height="250" width="450" alt="𝙶𝙸𝙵" src="GIF/code-wars.gif"/>
+ <img align="right" height="250" width="500" alt="𝙶𝙸𝙵" src="GIF/code-wars.gif"/>
 
 <br/>
 <br/>
@@ -157,7 +157,7 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 <br/>
 
 <p align="left">
-
+ 
 ![codewars](https://www.codewars.com/users/Alexander-Domanov/badges/large)
  
 </p>
@@ -168,5 +168,8 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 
 
 #
+
+<br/>
+<br/>
 
 ![footer](footer.webp)
