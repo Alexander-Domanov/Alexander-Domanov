@@ -79,10 +79,6 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 <br/>
 <br/>
 
- <p align="center">
- <img width="600" height="150" src="GIF/Play-Chrome-Dinosaur-Game.gif" alt="GIF"/>
-</p>
-
 #
 
 <br/>
