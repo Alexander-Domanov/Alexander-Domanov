@@ -148,7 +148,7 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 
 <br/>
 
- <img align="right" height="250" width="350" alt="𝙶𝙸𝙵" src="GIF/code-wars.gif"/>
+ <img align="right" height="250" width="300" alt="𝙶𝙸𝙵" src="GIF/code-wars.gif"/>
  
  [![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=Alexander-Domanov&theme=dark)](https://github.com/ignacio-cuadra/github-readme-codewars)
  
