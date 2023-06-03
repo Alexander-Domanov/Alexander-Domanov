@@ -24,9 +24,6 @@ However, I also understand that teamwork is very important in our professional s
 
 I have a passion and love for my work - it gives me not only satisfaction but also an opportunity to contribute towards creating a better future. I am ready to take up challenges presented by new projects before me so that i can continue growing as a frontend developer.
 
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=lonegdd&label=Profile%20views&color=0e75b6&style=flat" alt="lonegdd" /> </p>
-
 <p align="center">
  <img width="600" src="github-snake.svg" alt="snake"/>
 </p>
@@ -47,38 +44,8 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 - ⚡ Fun fact: I love coffee and have knowledge in specialty coffee. 
 
 <br/>
-
-#
-
 <br/>
-
-<h3>
-  Connect With Me
-  <img src="GIF/Handshake.gif" height="25px">
-</h3> 
- <br/>
-<p align="center"> 
-<a href="https://alexanderdomanov.dev@gmail.com">
-<code><img src="SVG/gmail-icon-logo.svg" width="60" height="60"></code>
- </a>
-<a href="https://t.me/alexanderdomanov">
-<code><img src="SVG/telegram.png" width="60" height="60"></code>
- </a>
- <a href="https://www.linkedin.com/in/Alexander-Domanov" target="_blank" rel="noreferrer">
- <code><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="60" height="60"/></code>
- </a>
- <a href="https://www.dev.to/Alexander-Domanov" target="_blank" rel="noreferrer">
-<code><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto.svg" width="60" height="60" /></code>
- </a> 
- <a href="https://www.github.com/alexander-domanov" target="_blank" rel="noreferrer">
-  <code><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="60" height="60" /></code>
- </a> 
- <a href="http://www.medium.com/@Alexander-Domanov" target="_blank" rel="noreferrer">
- <code><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="60" height="60"/></code>
- </a>
-</p>
- 
- <br/>
+<br/>
  
  <p align="center">
  <img width="600" height="150" src="GIF/Play-Chrome-Dinosaur-Game.gif" alt="GIF"/>
@@ -155,6 +122,19 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 
 <br/>
 
+<p align="center">
+  <img height="50" width="50" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg">  
+  <h4 align="center"><code>📊 𝙶𝚒𝚝𝙷𝚞𝚋 𝙼𝚎𝚝𝚛𝚒𝚌𝚜</code></h4>
+</p>
+
+<p align="center">
+ 
+![GitHub metrics](https://metrics.lecoq.io/Alexander-Domanov)  
+ 
+</p>
+
+
+
 <h3>
  💻 Codewars:
 </h3>
@@ -172,7 +152,35 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 <br/>
 <br/>
 
+<h3>
+  Connect With Me
+  <img src="GIF/Handshake.gif" height="25px">
+</h3> 
+
 #
+
+ <br/>
+<p align="center"> 
+<a href="https://alexanderdomanov.dev@gmail.com">
+<code><img src="SVG/gmail-icon-logo.svg" width="60" height="60"></code>
+ </a>
+<a href="https://t.me/alexanderdomanov">
+<code><img src="SVG/telegram.png" width="60" height="60"></code>
+ </a>
+ <a href="https://www.linkedin.com/in/Alexander-Domanov" target="_blank" rel="noreferrer">
+ <code><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="60" height="60"/></code>
+ </a>
+ <a href="https://www.dev.to/Alexander-Domanov" target="_blank" rel="noreferrer">
+<code><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto.svg" width="60" height="60" /></code>
+ </a> 
+ <a href="https://www.github.com/alexander-domanov" target="_blank" rel="noreferrer">
+  <code><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="60" height="60" /></code>
+ </a> 
+ <a href="http://www.medium.com/@Alexander-Domanov" target="_blank" rel="noreferrer">
+ <code><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="60" height="60"/></code>
+ </a>
+</p>
+
 
 <br/>
 <br/>
