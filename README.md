@@ -123,11 +123,6 @@ I have a passion and love for my work - it gives me not only satisfaction but al
     <a align="center" href="http://www.github.com/alexander-domanov"><img src="https://github-readme-streak-stats.herokuapp.com/?user=alexander-domanov&stroke=6366f1&background=000000&ring=a855f7&fire=a855f7&currStreakNum=6366f1&currStreakLabel=a855f7&sideNums=6366f1&sideLabels=6366f1&dates=6366f1&hide_border=true" /></a>
   </p>
 </details>
-
- ![trophy](https://github-profile-trophy.vercel.app/?username=alexander-domanov&column=9&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=oldie)
- ![𝚝𝚛𝚘𝚙𝚑𝚢](https://github-profile-trophy.vercel.app/?username=JayantGoel001&column=9&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=juicyfresh)
-
-
 <br/>
 
 <p align="center"> 
@@ -141,6 +136,10 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 #
 
 <br/>
+<br/>
+
+ ![trophy](https://github-profile-trophy.vercel.app/?username=alexander-domanov&column=9&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=oldie)
+
 <br/>
 
 <h3>
