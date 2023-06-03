@@ -55,15 +55,28 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 <h3>
   Connect With Me
   <img src="GIF/Handshake.gif" height="25px">
-</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/alexander-domanov/"><img src="https://img.shields.io/badge/linkedin-0A66C2?&style=for-the-badge&logo=linkedin&logoColor=white" height=25></a>
-<a href="https://t.me/alexanderdomanov"><img src="https://img.shields.io/badge/Telegram-26A5E4?&style=for-the-badge&logo=telegram&logoColor=white" height=25></a>
-<a href="https://alexanderdomanov.dev@gmail.com"><img src="https://img.shields.io/badge/gmail-EA4335?&style=for-the-badge&logo=telegram&logoColor=white" height=25></a>
- 
+</h3> 
  <br/>
- 
-<p align="left"> <a href="https://www.dev.to/Alexander-Domanov" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto.svg" width="32" height="32" /></a> <a href="https://www.github.com/alexander-domanov" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/Alexander-Domanov" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="http://www.medium.com/@Alexander-Domanov" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="32" height="32" /></a></p>
+<p align="center"> 
+<a href="https://alexanderdomanov.dev@gmail.com">
+<code><img src="SVG/gmail-icon-logo.svg" width="60" height="60"></code>
+ </a>
+<a href="https://t.me/alexanderdomanov">
+<code><img src="SVG/telegram.png" width="60" height="60"></code>
+ </a>
+ <a href="https://www.linkedin.com/in/Alexander-Domanov" target="_blank" rel="noreferrer">
+ <code><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="60" height="60"/></code>
+ </a>
+ <a href="https://www.dev.to/Alexander-Domanov" target="_blank" rel="noreferrer">
+<code><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto.svg" width="60" height="60" /></code>
+ </a> 
+ <a href="https://www.github.com/alexander-domanov" target="_blank" rel="noreferrer">
+  <code><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="60" height="60" /></code>
+ </a> 
+ <a href="http://www.medium.com/@Alexander-Domanov" target="_blank" rel="noreferrer">
+ <code><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="60" height="60"/></code>
+ </a>
+</p>
  
  <br/>
  
