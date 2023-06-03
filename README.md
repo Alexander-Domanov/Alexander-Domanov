@@ -159,8 +159,10 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 
 #
 
+<img align="right" height="250" width="450" alt="𝙶𝙸𝙵" src="GIF/connectWithMe.gif"/>
+
  <br/>
-<p align="center"> 
+<p > 
 <a href="https://alexanderdomanov.dev@gmail.com">
 <code><img src="SVG/gmail-icon-logo.svg" width="60" height="60"></code>
  </a>
@@ -182,6 +184,12 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 </p>
 
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 
