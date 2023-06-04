@@ -186,6 +186,11 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 
  ![trophy](https://github-profile-trophy.vercel.app/?username=alexander-domanov&column=9&margin-w=15&margin-h=15&no-bg=true&no-frame=true&theme=oldie)
 
+#
+
+![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=316i5dlxkamxvr7cphmojrcnaqeq)
+
+<br/>
 
 <p align="center"> 
   Visitor count<br>
