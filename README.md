@@ -188,7 +188,11 @@ I have a passion and love for my work - it gives me not only satisfaction but al
 
 #
 
-![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=316i5dlxkamxvr7cphmojrcnaqeq)
+<p align="center">
+ 
+ [![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=316i5dlxkamxvr7cphmojrcnaqeq)](https://open.spotify.com/)
+ 
+ </p>
 
 <br/>
 
