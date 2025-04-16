@@ -15,14 +15,13 @@
 
 <img align="right" width="400"  height="250" alt="GIF" src="https://media.tenor.com/3bTxZ4HdrysAAAAC/pixels-neon.gif">
 
-Hello! My name is Alexander Domanov and I am a Frontend developer specializing in React. I also plan on learning Vue and Angular to expand my skills in application development. Working in this field is not just my profession, but also the passion of my life. I strive to constantly learn and improve my skills to create better quality and innovative applications.
+Hello! My name is Alexander Domanov, and I am a Frontend Developer specializing in React. My goal is to create clean, efficient, and user-friendly applications, making them simple and intuitive using modern development approaches.
 
-In addition, I am interested in working with artificial intelligence and neural networks. I believe that these technologies have tremendous potential for changing our world for the better.
+In my work, it’s important to consider user needs, so I strive to develop products that are easy to use and meet expectations. My motto is "from complex to simple," because simplicity is the key to creating clear and functional solutions.
 
-It is very important for me to consider user needs, so I always try to make applications as convenient and easy-to-use as possible. My motto is "from complex to simple" because experience shows that it is the ideal strategy for achieving success.
-However, I also understand that teamwork is very important in our professional sphere. I am always ready to exchange experiences and ideas, as well as accept criticism and draw conclusions for further development.
+I am constantly developing my skills and staying up to date with new technologies. Currently, I am deepening my knowledge of React and exploring how artificial intelligence can be applied in interfaces — for example, to improve user experience or automate routine tasks. I believe these technologies have the potential to significantly impact the future of development.
 
-I have a passion and love for my work - it gives me not only satisfaction but also an opportunity to contribute towards creating a better future. I am ready to take up challenges presented by new projects before me so that i can continue growing as a frontend developer.
+I also believe that teamwork is one of the key factors for success. I am always open to exchanging ideas, receiving constructive feedback, and collaborating on tasks. I am excited to take on new challenges and continue growing as a React Developer, participating in interesting and meaningful projects.
 
 <p align="center">
  <img width="600" src="github-snake.svg" alt="snake"/>
