@@ -188,9 +188,10 @@ I also believe that teamwork is one of the key factors for success. I am always 
 #
 
 <p align="center">
- [![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=31ypm224jnxsiaajefi4nptak4p4)](https://open.spotify.com/)
-
- </p>
+  <a href="https://open.spotify.com/user/31ypm224jnxsiaajefi4nptak4p4">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31ypm224jnxsiaajefi4nptak4p4" alt="Spotify Recently Played" />
+  </a>
+</p>
 
 <br/>
 
