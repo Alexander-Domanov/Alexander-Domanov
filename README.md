@@ -28,7 +28,7 @@ A team-built multilingual platform for documenting Belarusian burial sites in Po
 
 **Stack:** Next.js · TypeScript · Google Maps · Internationalization
 
-[Repository](YOUR_REPOSITORY_URL)
+[Repository](https://github.com/Alexander-Domanov/placeofmemoryclient)
 
 ## What I've worked with
 
