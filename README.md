@@ -1,4 +1,4 @@
-# Frontend, beyond the component.
+# Frontend, beyond the component
 
 I work with **React, Next.js and TypeScript** on team-built web applications.
 
@@ -12,7 +12,7 @@ I'm interested in understanding how UI, application state, APIs and user flows w
 
 A team-built social platform with profiles, posts, subscriptions, messaging and an admin application.
 
-**Worked on:** Profiles · Localization · Statistics · Administration
+**Worked on:** Profiles · Localization · Statistics · Admin features
 
 **Stack:** Next.js · TypeScript · TanStack Query · Zustand · GraphQL
 
@@ -38,11 +38,11 @@ A team-built multilingual platform for documenting Belarusian burial sites in Po
 
 ## Currently
 
-I'm going deeper into web fundamentals, TypeScript, testing and accessibility. I want to understand frontend as an engineering discipline, not just learn another framework.
+I'm going deeper into web fundamentals, TypeScript, testing and accessibility. I want to understand frontend more deeply as an engineering discipline.
 
-I'm also learning how to use AI effectively without losing my own understanding of the code.
+I'm also learning how to use AI effectively while keeping my own understanding of the code and decisions behind it.
 
-Outside of development, I'm into endurance sports, with a long-term goal of running an ultramarathon and completing an IRONMAN.
+Outside of development, I'm into endurance sports. One of my long-term goals is to run an ultramarathon and complete an IRONMAN.
 
 ## Contact
 
