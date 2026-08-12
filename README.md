@@ -1,6 +1,8 @@
-I work with React, Next.js and TypeScript on team-built web applications.
+# Frontend, beyond the component.
 
-I'm interested in understanding what happens beyond the component — how UI, application state, APIs and user flows work together.
+I work with **React, Next.js and TypeScript** on team-built web applications.
+
+I'm interested in understanding how UI, application state, APIs and user flows work together.
 
 [Portfolio](https://alexander-domanov.github.io/portfolio-dev/) · [LinkedIn](https://www.linkedin.com/in/alexander-domanov/) · [Email](mailto:alexanderdomanov.dev@gmail.com)
 
@@ -28,14 +30,11 @@ A team-built multilingual platform for documenting Belarusian burial sites in Po
 
 ## What I've worked with
 
-**Core**  
-HTML · CSS / SCSS · JavaScript · TypeScript · React · Next.js
+**Core:** HTML · CSS / SCSS · JavaScript · TypeScript · React · Next.js
 
-**Application**  
-REST APIs · GraphQL · TanStack Query · Redux Toolkit · Zustand · React Hook Form
+**Application:** REST APIs · GraphQL · TanStack Query · Redux Toolkit · Zustand · React Hook Form
 
-**Tools**  
-Git · Storybook · Figma
+**Tools:** Git · Storybook · Figma
 
 ## Currently
 
