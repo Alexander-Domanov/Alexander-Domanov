@@ -1,7 +1,3 @@
-# Alexander Domanov
-
-**Frontend Developer**
-
 I work with React, Next.js and TypeScript on team-built web applications.
 
 I'm interested in understanding what happens beyond the component — how UI, application state, APIs and user flows work together.
