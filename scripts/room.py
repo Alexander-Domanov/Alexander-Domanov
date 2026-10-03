@@ -50,7 +50,7 @@ REMOTE_KEEP = 12 * 3600  # столько ntfy держит сообщение; 
 START = "<!-- room:start -->"
 END = "<!-- room:end -->"
 
-ALT = "комната Мидзу и Моти: вид меняется по часам Минска — утро, день, вечер, ночь"
+ALT = "комната Мидзу и Моти: вид меняется по времени суток — утро, день, вечер, ночь"
 
 STATES = ("morning", "day", "evening", "night")
 
@@ -381,26 +381,37 @@ def render(moment, state=None):
     return file_name(moment, body), body
 
 
-def write_assets(moment, out_dir, state=None, origin="default"):
+def write_assets(moment, out_dir, state=None, origin="default", all_moments=False):
     """Кладёт свежую комнату, убирает старые версии, пишет указатель latest.json.
 
     Указатель нужен странице комнаты: имя файла меняется каждый час, а адрес у
     страницы постоянный, поэтому имя она берёт отсюда.
+
+    Видов четыре, и гостю нужен свой: у него вечер — значит вечер, а не время
+    сервера. Поэтому вместе с текущим видом кладём в указатель карту «время
+    суток → имя файла» (all_moments). Без неё странице нечего показать гостю с
+    другим часом.
     """
-    name, body = render(moment, state)
+    wanted = STATES if all_moments else (moment,)
+    made = {}
+    for name_of_moment in wanted:
+        made[name_of_moment] = render(name_of_moment, state)
     os.makedirs(out_dir, exist_ok=True)
+    keep = {built[0] for built in made.values()}
     for old in os.listdir(out_dir):
-        if old.startswith("room-") and old.endswith(".svg") and old != name:
+        if old.startswith("room-") and old.endswith(".svg") and old not in keep:
             os.remove(os.path.join(out_dir, old))
-    path = os.path.join(out_dir, name)
-    with open(path, "w", encoding="utf-8") as fh:
-        fh.write(body)
+    for built_name, body in made.values():
+        with open(os.path.join(out_dir, built_name), "w", encoding="utf-8") as fh:
+            fh.write(body)
+    name, body = made[moment]
     latest = {"name": name, "moment": moment, "state": state_text(state or DEFAULT_STATE),
-              "stateFrom": origin, "url": f"{BASE}/assets/room/{name}"}
+              "stateFrom": origin, "url": f"{BASE}/assets/room/{name}",
+              "moments": {m: made[m][0] for m in made}}
     with open(os.path.join(out_dir, LATEST), "w", encoding="utf-8") as fh:
         json.dump(latest, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
-    return name, body, path
+    return name, body, os.path.join(out_dir, name)
 
 
 def update_readme(name):
@@ -426,6 +437,9 @@ def main():
     parser.add_argument("--remote", action="store_true",
                         help="взять состояние у последнего гостя (ntfy), иначе — из state.json")
     parser.add_argument("--out-dir", default=ASSETS)
+    parser.add_argument("--all-moments", action="store_true",
+                        help="нарисовать все четыре вида суток, а не только текущий: "
+                             "страница комнаты берёт вид по часам гостя")
     parser.add_argument("--no-readme", action="store_true")
     parser.add_argument("--print-name", action="store_true")
     args = parser.parse_args()
@@ -442,7 +456,8 @@ def main():
             state, origin = guest, who or "guest"
     else:
         state = load_state()
-    name, _body, path = write_assets(moment, args.out_dir, state, origin)
+    name, _body, path = write_assets(moment, args.out_dir, state, origin,
+                                     all_moments=args.all_moments)
     if args.print_name:
         print(name)
         return 0
