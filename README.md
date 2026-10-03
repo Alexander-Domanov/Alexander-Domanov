@@ -1,4 +1,10 @@
 <p align="center">
+<!-- room:start -->
+<img src="https://alexander-domanov.github.io/Alexander-Domanov/assets/room/room-night-29fb90e369.svg" width="880" alt="комната Мидзу и Моти: вид меняется по часам Минска — утро, день, вечер, ночь">
+<!-- room:end -->
+</p>
+
+<p align="center">
   <a href="https://alexander-domanov.github.io/console/">
     <img src="assets/console/console.png" width="880" alt="domanov@vps: ~/console — a terminal you can type into">
   </a>
