@@ -216,7 +216,12 @@ def dog(p, x, y, awake, gid):
 
 
 def notes(p):
-    """Ноты: видно только когда гость включил музыку."""
+    """Ноты: видно только когда гость включил барабаны.
+
+    Музыка и барабаны — два разных переключателя, и вид у них обязан быть
+    разным: если оба рисовали одно и то же, нажатие на второй ничего не меняло
+    бы на экране. Барабанам — ноты у установки, музыке — полоски на столе.
+    """
     out = []
     for i, (x, y) in enumerate(((160, 196), (196, 176), (232, 156))):
         out.append(f'''
@@ -227,6 +232,20 @@ def notes(p):
         values="0 0; 6 -14; 0 -28" dur="{3 + i}s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.9;0.4;0" dur="{3 + i}s" repeatCount="indefinite"/>
     </g>''')
+    return "".join(out)
+
+
+def music(p):
+    """Музыка: полоски-эквалайзер на столе, рядом с экраном."""
+    out = []
+    for i, (x, h) in enumerate(((600, 12), (610, 22), (620, 16), (630, 8))):
+        y0 = 230 - h
+        dur = 1.2 + i * 0.25
+        out.append(f'''
+    <rect x="{x}" y="{y0}" width="5" height="{h}" rx="2" fill="{p['ink']}" opacity="0.9">
+      <animate attributeName="height" values="{h};{h + 7};{h}" dur="{dur:.2f}s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="{y0};{y0 - 7};{y0}" dur="{dur:.2f}s" repeatCount="indefinite"/>
+    </rect>''')
     return "".join(out)
 
 
@@ -292,6 +311,7 @@ def room(moment, state=None):
     /* ---- пульт: состояние комнаты ---- */
     #dark {{ display:none }}
     #notes {{ display:none }}
+    #music {{ display:none }}
     #mochi-sleep {{ display:none }}
     #bubble {{ display:none }}
     #secret {{ display:none }}
@@ -300,8 +320,8 @@ def room(moment, state=None):
     .m-lamp0 #lamp {{ animation:none; opacity:0.04 }}
     .m-lamp0 #dark {{ display:inline; opacity:0.34 }}
     .m-lamp0 #screen {{ opacity:0.95 }}
-    .m-music1 #notes {{ display:inline }}
     .m-drums1 #notes {{ display:inline }}
+    .m-music1 #music {{ display:inline }}
     .m-drums1 #drums .drum {{ opacity:1; stroke-width:3 }}
     .m-guitar1 #guitar {{ stroke-width:3; opacity:1 }}
     #guitar {{ opacity:0.55 }}
@@ -348,6 +368,7 @@ def room(moment, state=None):
     {dog(p, 700, 268, True, 'mochi-awake')}
     {dog(p, 700, 268, False, 'mochi-sleep')}
     <g id="notes">{notes(p)}</g>
+    <g id="music">{music(p)}</g>
     <g id="bubble">
       <rect x="716" y="212" width="62" height="26" rx="13" fill="{p['back']}" opacity="0.95"/>
       <text x="747" y="231" font-family="Georgia, serif" font-size="15" fill="{p['ink']}" text-anchor="middle">гав</text>
