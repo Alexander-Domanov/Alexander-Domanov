@@ -1,0 +1,17 @@
+<svg viewBox="0 0 900 104" width="900" height="104" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="profile statistics">
+<defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#e2ecf7" stroke-width="1"/></pattern></defs><rect width="900" height="104" fill="#f2f7fd"/><rect width="900" height="104" fill="url(#g)"/>
+<text x="26.0" y="52.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" fill="#0d2438">287</text>
+<text x="26.0" y="74.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#4d6f8e" letter-spacing="1.6">CONTRIBUTIONS / 12 MO</text>
+<line x1="180.0" y1="20" x2="180.0" y2="84" stroke="#cfe0f0"/>
+<text x="206.0" y="52.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" fill="#0d2438">47</text>
+<text x="206.0" y="74.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#4d6f8e" letter-spacing="1.6">ACTIVE DAYS</text>
+<line x1="360.0" y1="20" x2="360.0" y2="84" stroke="#cfe0f0"/>
+<text x="386.0" y="52.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" fill="#0d2438">6 D</text>
+<text x="386.0" y="74.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#4d6f8e" letter-spacing="1.6">LONGEST RUN</text>
+<line x1="540.0" y1="20" x2="540.0" y2="84" stroke="#cfe0f0"/>
+<text x="566.0" y="52.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" fill="#0d2438">23</text>
+<text x="566.0" y="74.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#4d6f8e" letter-spacing="1.6">PUBLIC REPOS</text>
+<line x1="720.0" y1="20" x2="720.0" y2="84" stroke="#cfe0f0"/>
+<text x="746.0" y="52.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" fill="#0d2438">66</text>
+<text x="746.0" y="74.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#4d6f8e" letter-spacing="1.6">FOLLOWERS</text>
+</svg>

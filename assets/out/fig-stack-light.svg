@@ -1,0 +1,21 @@
+<svg viewBox="0 0 900 156" width="900" height="156" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="languages by bytes">
+<defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#e2ecf7" stroke-width="1"/></pattern></defs><rect width="900" height="156" fill="#f2f7fd"/><rect width="900" height="156" fill="url(#g)"/>
+<text x="28.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#4d6f8e" letter-spacing="2.2">FIG. 4 — MATERIALS / BYTES OF CODE PER LANGUAGE</text>
+<rect x="28.0" y="56" width="624.0" height="30" fill="#1a6ea8" stroke="#f2f7fd" stroke-width="1.5"/>
+<text x="38.0" y="76.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff">74%</text>
+<rect x="652.0" y="56" width="67.2" height="30" fill="#4b93c4" stroke="#f2f7fd" stroke-width="1.5"/>
+<rect x="719.2" y="56" width="52.9" height="30" fill="#7fb2d6" stroke="#f2f7fd" stroke-width="1.5"/>
+<rect x="772.2" y="56" width="42.9" height="30" fill="#a9cbe4" stroke="#f2f7fd" stroke-width="1.5"/>
+<rect x="815.1" y="56" width="29.7" height="30" fill="#cfe3f3" stroke="#f2f7fd" stroke-width="1.5"/>
+<rect x="28" y="108" width="10" height="10" fill="#1a6ea8" stroke="#a9c6e2" stroke-width="1"/>
+<text x="46.0" y="117.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">TypeScript</text>
+<rect x="141.8" y="108" width="10" height="10" fill="#4b93c4" stroke="#a9c6e2" stroke-width="1"/>
+<text x="159.8" y="117.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">Python</text>
+<rect x="230.88" y="108" width="10" height="10" fill="#7fb2d6" stroke="#a9c6e2" stroke-width="1"/>
+<text x="248.9" y="117.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">CSS</text>
+<rect x="301.41999999999996" y="108" width="10" height="10" fill="#a9cbe4" stroke="#a9c6e2" stroke-width="1"/>
+<text x="319.4" y="117.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">HTML</text>
+<rect x="378.14" y="108" width="10" height="10" fill="#cfe3f3" stroke="#a9c6e2" stroke-width="1"/>
+<text x="396.1" y="117.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">JavaScript</text>
+<text x="872.0" y="148.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#7b95ad" text-anchor="end" letter-spacing="1.2">TOP 5 OF 9 LANGUAGES · BYTES OF CODE</text>
+</svg>
