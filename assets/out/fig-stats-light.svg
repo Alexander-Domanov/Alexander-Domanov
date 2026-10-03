@@ -4,7 +4,7 @@
 <text x="28.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#4d6f8e" letter-spacing="2.4">FIG. 3 — COUNTERS / LAST 12 MONTHS</text>
 <text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#7b95ad" text-anchor="end" letter-spacing="1.4">REV 2026-10-03</text>
 <line x1="28" y1="46" x2="872" y2="46" stroke="#cfe0f0"/>
-<text x="26.0" y="86.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" fill="#0d2438">288</text>
+<text x="26.0" y="86.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" fill="#0d2438">294</text>
 <text x="26.0" y="108.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" fill="#4d6f8e" letter-spacing="1.5">CONTRIBUTIONS / 12 MO</text>
 <line x1="180.0" y1="62" x2="180.0" y2="116" stroke="#cfe0f0"/>
 <text x="206.0" y="86.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" fill="#0d2438">48</text>
@@ -13,9 +13,9 @@
 <text x="386.0" y="86.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" fill="#0d2438">6</text>
 <text x="386.0" y="108.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" fill="#4d6f8e" letter-spacing="1.5">LONGEST RUN / DAYS</text>
 <line x1="540.0" y1="62" x2="540.0" y2="116" stroke="#cfe0f0"/>
-<text x="566.0" y="86.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" fill="#0d2438">23</text>
+<text x="566.0" y="86.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" fill="#0d2438">24</text>
 <text x="566.0" y="108.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" fill="#4d6f8e" letter-spacing="1.5">PUBLIC REPOS</text>
 <line x1="720.0" y1="62" x2="720.0" y2="116" stroke="#cfe0f0"/>
-<text x="746.0" y="86.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" fill="#0d2438">66</text>
+<text x="746.0" y="86.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" fill="#0d2438">65</text>
 <text x="746.0" y="108.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" fill="#4d6f8e" letter-spacing="1.5">FOLLOWERS</text>
 </svg>

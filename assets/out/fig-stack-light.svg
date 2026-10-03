@@ -6,25 +6,27 @@
 <line x1="28" y1="46" x2="872" y2="46" stroke="#cfe0f0"/>
 <line x1="28" y1="168" x2="872" y2="168" stroke="#cfe0f0"/>
 <text x="28.0" y="184.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#4d6f8e" letter-spacing="1.4">TOP 5 OF 9 LANGUAGES · BYTES OF CODE</text>
-<rect x="28.0" y="58" width="624.0" height="28" fill="#1a6ea8" stroke="#f2f7fd" stroke-width="1.5"/>
-<text x="38.0" y="77.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff">74%</text>
-<rect x="652.0" y="58" width="67.2" height="28" fill="#4b93c4" stroke="#f2f7fd" stroke-width="1.5"/>
-<rect x="719.2" y="58" width="52.9" height="28" fill="#7fb2d6" stroke="#f2f7fd" stroke-width="1.5"/>
-<rect x="772.2" y="58" width="42.9" height="28" fill="#a9cbe4" stroke="#f2f7fd" stroke-width="1.5"/>
-<rect x="815.1" y="58" width="29.7" height="28" fill="#cfe3f3" stroke="#f2f7fd" stroke-width="1.5"/>
+<rect x="28.0" y="58" width="583.5" height="28" fill="#1a6ea8" stroke="#f2f7fd" stroke-width="1.5"/>
+<text x="38.0" y="77.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff">69%</text>
+<rect x="611.5" y="58" width="76.1" height="28" fill="#4b93c4" stroke="#f2f7fd" stroke-width="1.5"/>
+<text x="621.5" y="77.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#0d2438">9%</text>
+<rect x="687.6" y="58" width="75.7" height="28" fill="#7fb2d6" stroke="#f2f7fd" stroke-width="1.5"/>
+<text x="697.6" y="77.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#0d2438">9%</text>
+<rect x="763.3" y="58" width="49.5" height="28" fill="#a9cbe4" stroke="#f2f7fd" stroke-width="1.5"/>
+<rect x="812.8" y="58" width="33.7" height="28" fill="#cfe3f3" stroke="#f2f7fd" stroke-width="1.5"/>
 <rect x="28" y="107" width="10" height="10" fill="#1a6ea8" stroke="#a9c6e2"/>
 <text x="46.0" y="116.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">TypeScript</text>
-<text x="452.0" y="116.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">73.9% · 941.8 KB</text>
+<text x="452.0" y="116.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">69.1% · 941.8 KB</text>
 <rect x="28" y="129" width="10" height="10" fill="#4b93c4" stroke="#a9c6e2"/>
 <text x="46.0" y="138.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">Python</text>
-<text x="452.0" y="138.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">8.0% · 101.4 KB</text>
+<text x="452.0" y="138.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">9.0% · 122.9 KB</text>
 <rect x="28" y="151" width="10" height="10" fill="#7fb2d6" stroke="#a9c6e2"/>
-<text x="46.0" y="160.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">CSS</text>
-<text x="452.0" y="160.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">6.3% · 79.9 KB</text>
+<text x="46.0" y="160.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">HTML</text>
+<text x="452.0" y="160.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">9.0% · 122.2 KB</text>
 <rect x="470" y="107" width="10" height="10" fill="#a9cbe4" stroke="#a9c6e2"/>
-<text x="488.0" y="116.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">HTML</text>
-<text x="894.0" y="116.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">5.1% · 64.8 KB</text>
+<text x="488.0" y="116.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">CSS</text>
+<text x="894.0" y="116.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">5.9% · 79.9 KB</text>
 <rect x="470" y="129" width="10" height="10" fill="#cfe3f3" stroke="#a9c6e2"/>
 <text x="488.0" y="138.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">JavaScript</text>
-<text x="894.0" y="138.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">3.5% · 44.9 KB</text>
+<text x="894.0" y="138.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">4.0% · 54.4 KB</text>
 </svg>
