@@ -1,21 +1,30 @@
-<svg viewBox="0 0 900 156" width="900" height="156" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="languages by bytes">
-<defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#16304d" stroke-width="1"/></pattern></defs><rect width="900" height="156" fill="#0e2035"/><rect width="900" height="156" fill="url(#g)"/>
-<text x="28.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#93aec9" letter-spacing="2.2">FIG. 4 — MATERIALS / BYTES OF CODE PER LANGUAGE</text>
-<rect x="28.0" y="56" width="624.0" height="30" fill="#7fd1f5" stroke="#0e2035" stroke-width="1.5"/>
-<text x="38.0" y="76.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#0c1a2b">74%</text>
-<rect x="652.0" y="56" width="67.2" height="30" fill="#5aa8d0" stroke="#0e2035" stroke-width="1.5"/>
-<rect x="719.2" y="56" width="52.9" height="30" fill="#3f86b3" stroke="#0e2035" stroke-width="1.5"/>
-<rect x="772.2" y="56" width="42.9" height="30" fill="#2f6c96" stroke="#0e2035" stroke-width="1.5"/>
-<rect x="815.1" y="56" width="29.7" height="30" fill="#24587c" stroke="#0e2035" stroke-width="1.5"/>
-<rect x="28" y="108" width="10" height="10" fill="#7fd1f5" stroke="#2f5480" stroke-width="1"/>
-<text x="46.0" y="117.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#dce8f5">TypeScript</text>
-<rect x="141.8" y="108" width="10" height="10" fill="#5aa8d0" stroke="#2f5480" stroke-width="1"/>
-<text x="159.8" y="117.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#dce8f5">Python</text>
-<rect x="230.88" y="108" width="10" height="10" fill="#3f86b3" stroke="#2f5480" stroke-width="1"/>
-<text x="248.9" y="117.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#dce8f5">CSS</text>
-<rect x="301.41999999999996" y="108" width="10" height="10" fill="#2f6c96" stroke="#2f5480" stroke-width="1"/>
-<text x="319.4" y="117.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#dce8f5">HTML</text>
-<rect x="378.14" y="108" width="10" height="10" fill="#24587c" stroke="#2f5480" stroke-width="1"/>
-<text x="396.1" y="117.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#dce8f5">JavaScript</text>
-<text x="872.0" y="148.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#63849f" text-anchor="end" letter-spacing="1.2">TOP 5 OF 9 LANGUAGES · BYTES OF CODE</text>
+<svg viewBox="0 0 900 196" width="900" height="196" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="languages by bytes">
+<defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#16304d" stroke-width="1"/></pattern></defs><rect width="900" height="196" fill="#0e2035"/><rect width="900" height="196" fill="url(#g)"/>
+<rect x="8.5" y="8.5" width="883" height="179" fill="none" stroke="#2f5480"/>
+<text x="28.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#93aec9" letter-spacing="2.4">FIG. 5 — MATERIALS / BYTES OF CODE PER LANGUAGE</text>
+<text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#63849f" text-anchor="end" letter-spacing="1.4">REV 2026-10-03</text>
+<line x1="28" y1="46" x2="872" y2="46" stroke="#1f3a57"/>
+<line x1="28" y1="168" x2="872" y2="168" stroke="#1f3a57"/>
+<text x="28.0" y="184.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#93aec9" letter-spacing="1.4">TOP 5 OF 9 LANGUAGES · BYTES OF CODE</text>
+<rect x="28.0" y="58" width="624.0" height="28" fill="#7fd1f5" stroke="#0e2035" stroke-width="1.5"/>
+<text x="38.0" y="77.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#0c1a2b">74%</text>
+<rect x="652.0" y="58" width="67.2" height="28" fill="#5aa8d0" stroke="#0e2035" stroke-width="1.5"/>
+<rect x="719.2" y="58" width="52.9" height="28" fill="#3f86b3" stroke="#0e2035" stroke-width="1.5"/>
+<rect x="772.2" y="58" width="42.9" height="28" fill="#2f6c96" stroke="#0e2035" stroke-width="1.5"/>
+<rect x="815.1" y="58" width="29.7" height="28" fill="#24587c" stroke="#0e2035" stroke-width="1.5"/>
+<rect x="28" y="107" width="10" height="10" fill="#7fd1f5" stroke="#2f5480"/>
+<text x="46.0" y="116.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#dce8f5">TypeScript</text>
+<text x="452.0" y="116.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#93aec9" text-anchor="end">73.9% · 941.8 KB</text>
+<rect x="28" y="129" width="10" height="10" fill="#5aa8d0" stroke="#2f5480"/>
+<text x="46.0" y="138.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#dce8f5">Python</text>
+<text x="452.0" y="138.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#93aec9" text-anchor="end">8.0% · 101.4 KB</text>
+<rect x="28" y="151" width="10" height="10" fill="#3f86b3" stroke="#2f5480"/>
+<text x="46.0" y="160.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#dce8f5">CSS</text>
+<text x="452.0" y="160.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#93aec9" text-anchor="end">6.3% · 79.9 KB</text>
+<rect x="470" y="107" width="10" height="10" fill="#2f6c96" stroke="#2f5480"/>
+<text x="488.0" y="116.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#dce8f5">HTML</text>
+<text x="894.0" y="116.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#93aec9" text-anchor="end">5.1% · 64.8 KB</text>
+<rect x="470" y="129" width="10" height="10" fill="#24587c" stroke="#2f5480"/>
+<text x="488.0" y="138.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#dce8f5">JavaScript</text>
+<text x="894.0" y="138.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#93aec9" text-anchor="end">3.5% · 44.9 KB</text>
 </svg>

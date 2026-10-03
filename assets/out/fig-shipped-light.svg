@@ -1,26 +1,33 @@
-<svg viewBox="0 0 900 256" width="900" height="256" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="last shipped public commits">
-<defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#e2ecf7" stroke-width="1"/></pattern></defs><rect width="900" height="256" fill="#f2f7fd"/><rect width="900" height="256" fill="url(#g)"/>
-<text x="28.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#4d6f8e" letter-spacing="2.2">FIG. 2 — LAST SHIPPED / PUBLIC COMMITS, NEWEST FIRST</text>
-<line x1="28" y1="42" x2="872" y2="42" stroke="#cfe0f0"/>
-<text x="28.0" y="60.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#7b95ad">2026-09-04</text>
-<text x="120.0" y="60.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#1a6ea8">snake-arena</text>
-<text x="285.0" y="60.0" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0d2438">chore(agents): sync AGENTS.md + ci.yml with Module 5</text>
-<line x1="28" y1="74" x2="872" y2="74" stroke="#cfe0f0"/>
-<text x="28.0" y="92.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#7b95ad">2026-08-31</text>
-<text x="120.0" y="92.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#1a6ea8">household-chores</text>
-<text x="285.0" y="92.0" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0d2438">Add CI workflow, license and README badges</text>
-<line x1="28" y1="106" x2="872" y2="106" stroke="#cfe0f0"/>
-<text x="28.0" y="124.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#7b95ad">2026-08-30</text>
-<text x="120.0" y="124.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#1a6ea8">async-race</text>
-<text x="285.0" y="124.0" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0d2438">feat: add hash routing, race polish and gh-pages setup</text>
-<line x1="28" y1="138" x2="872" y2="138" stroke="#cfe0f0"/>
-<text x="28.0" y="156.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#7b95ad">2026-08-13</text>
-<text x="120.0" y="156.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#1a6ea8">placeofmemoryclient</text>
-<text x="285.0" y="156.0" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0d2438">docs: update project readme</text>
-<line x1="28" y1="170" x2="872" y2="170" stroke="#cfe0f0"/>
-<text x="28.0" y="188.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#7b95ad">2026-08-11</text>
-<text x="120.0" y="188.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#1a6ea8">portfolio-dev</text>
-<text x="285.0" y="188.0" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0d2438">feat: redesign projects section</text>
-<line x1="28" y1="202" x2="872" y2="202" stroke="#cfe0f0"/>
-<text x="28.0" y="240.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#4d6f8e" letter-spacing="1.2">LAST ACTIVE DAY 2026-09-09 · 287 CONTRIBUTIONS / 47 DAYS</text>
+<svg viewBox="0 0 900 278" width="900" height="278" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="last shipped public commits">
+<defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#e2ecf7" stroke-width="1"/></pattern></defs><rect width="900" height="278" fill="#f2f7fd"/><rect width="900" height="278" fill="url(#g)"/>
+<rect x="8.5" y="8.5" width="883" height="261" fill="none" stroke="#a9c6e2"/>
+<text x="28.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#4d6f8e" letter-spacing="2.4">FIG. 2 — LAST SHIPPED / PUBLIC COMMITS, NEWEST FIRST</text>
+<text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#7b95ad" text-anchor="end" letter-spacing="1.4">REV 2026-10-03</text>
+<line x1="28" y1="46" x2="872" y2="46" stroke="#cfe0f0"/>
+<line x1="28" y1="250" x2="872" y2="250" stroke="#cfe0f0"/>
+<text x="28.0" y="266.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#4d6f8e" letter-spacing="1.4">LAST PUBLIC COMMIT 2026-10-03 · ONE ROW PER REPOSITORY</text>
+<text x="28.0" y="70.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" fill="#7b95ad" letter-spacing="1.6">DATE</text>
+<text x="120.0" y="70.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" fill="#7b95ad" letter-spacing="1.6">REPOSITORY</text>
+<text x="285.0" y="70.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" fill="#7b95ad" letter-spacing="1.6">COMMIT MESSAGE</text>
+<line x1="28" y1="78" x2="872" y2="78" stroke="#a9c6e2"/>
+<text x="28.0" y="102.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#7b95ad">2026-09-04</text>
+<text x="120.0" y="102.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#1a6ea8">snake-arena</text>
+<text x="285.0" y="102.0" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0d2438">chore(agents): sync AGENTS.md + ci.yml with Module 5</text>
+<line x1="28" y1="112" x2="872" y2="112" stroke="#cfe0f0"/>
+<text x="28.0" y="134.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#7b95ad">2026-08-31</text>
+<text x="120.0" y="134.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#1a6ea8">household-chores</text>
+<text x="285.0" y="134.0" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0d2438">Add CI workflow, license and README badges</text>
+<line x1="28" y1="144" x2="872" y2="144" stroke="#cfe0f0"/>
+<text x="28.0" y="166.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#7b95ad">2026-08-30</text>
+<text x="120.0" y="166.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#1a6ea8">async-race</text>
+<text x="285.0" y="166.0" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0d2438">feat: add hash routing, race polish and gh-pages setup</text>
+<line x1="28" y1="176" x2="872" y2="176" stroke="#cfe0f0"/>
+<text x="28.0" y="198.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#7b95ad">2026-08-13</text>
+<text x="120.0" y="198.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#1a6ea8">placeofmemoryclient</text>
+<text x="285.0" y="198.0" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0d2438">docs: update project readme</text>
+<line x1="28" y1="208" x2="872" y2="208" stroke="#cfe0f0"/>
+<text x="28.0" y="230.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#7b95ad">2026-08-11</text>
+<text x="120.0" y="230.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#1a6ea8">portfolio-dev</text>
+<text x="285.0" y="230.0" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0d2438">feat: redesign projects section</text>
+<line x1="28" y1="240" x2="872" y2="240" stroke="#cfe0f0"/>
 </svg>
