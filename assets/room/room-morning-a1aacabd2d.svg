@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" class="moment-morning m-lamp1 m-music0 m-drums1 m-guitar1 m-dog0 m-decor1 m-secret1" role="img" aria-label="Комната Мидзу и Моти, morning">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" class="moment-morning m-lamp0 m-music1 m-drums0 m-guitar0 m-dog1 m-decor0 m-secret0" role="img" aria-label="Комната Мидзу и Моти, morning">
   <style>
-    @keyframes flicker { 0%,100% { opacity:0.18 } 43% { opacity:0.32 } 58% { opacity:0.13 } }
+    @keyframes flicker { 0%,100% { opacity:0.02 } 43% { opacity:0.16 } 58% { opacity:0.05 } }
     #lamp { animation: flicker 4.5s ease-in-out infinite; }
     @keyframes breathe { 0%,100% { transform: translateY(0px) } 50% { transform: translateY(-2.5px) } }
     #roommove { animation: breathe 11s ease-in-out infinite; }
@@ -9,6 +9,7 @@
     /* ---- пульт: состояние комнаты ---- */
     #dark { display:none }
     #notes { display:none }
+    #music { display:none }
     #mochi-sleep { display:none }
     #bubble { display:none }
     #secret { display:none }
@@ -17,8 +18,8 @@
     .m-lamp0 #lamp { animation:none; opacity:0.04 }
     .m-lamp0 #dark { display:inline; opacity:0.34 }
     .m-lamp0 #screen { opacity:0.95 }
-    .m-music1 #notes { display:inline }
     .m-drums1 #notes { display:inline }
+    .m-music1 #music { display:inline }
     .m-drums1 #drums .drum { opacity:1; stroke-width:3 }
     .m-guitar1 #guitar { stroke-width:3; opacity:1 }
     #guitar { opacity:0.55 }
@@ -64,7 +65,7 @@
       <path d="M600 280 v-70 h40 l-20 -26"/>
       <path d="M640 184 l-46 14" />
     </g>
-    <circle id="lamp" cx="612" cy="200" r="54" fill="#c9b48c" opacity="0.18"/>
+    <circle id="lamp" cx="612" cy="200" r="54" fill="#c9b48c" opacity="0.02"/>
     <!-- стол и экран -->
     <rect x="380" y="232" width="300" height="10" rx="3" fill="#3a3733" opacity="0.55"/>
     <path d="M400 280 v-38 M660 280 v-38" stroke="#3a3733" stroke-width="3" opacity="0.35"/>
@@ -127,6 +128,23 @@
         values="0 0; 6 -14; 0 -28" dur="5s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.9;0.4;0" dur="5s" repeatCount="indefinite"/>
     </g></g>
+    <g id="music">
+    <rect x="600" y="218" width="5" height="12" rx="2" fill="#3a3733" opacity="0.9">
+      <animate attributeName="height" values="12;19;12" dur="1.20s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="218;211;218" dur="1.20s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="610" y="208" width="5" height="22" rx="2" fill="#3a3733" opacity="0.9">
+      <animate attributeName="height" values="22;29;22" dur="1.45s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="208;201;208" dur="1.45s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="620" y="214" width="5" height="16" rx="2" fill="#3a3733" opacity="0.9">
+      <animate attributeName="height" values="16;23;16" dur="1.70s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="214;207;214" dur="1.70s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="630" y="222" width="5" height="8" rx="2" fill="#3a3733" opacity="0.9">
+      <animate attributeName="height" values="8;15;8" dur="1.95s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="222;215;222" dur="1.95s" repeatCount="indefinite"/>
+    </rect></g>
     <g id="bubble">
       <rect x="716" y="212" width="62" height="26" rx="13" fill="#e6dccd" opacity="0.95"/>
       <text x="747" y="231" font-family="Georgia, serif" font-size="15" fill="#3a3733" text-anchor="middle">гав</text>
@@ -180,7 +198,7 @@
   <!-- реплика -->
   <g>
     <rect x="40" y="16" width="620" height="34" rx="17" fill="#e6dccd" opacity="0.95"/>
-    <text id="line" x="62" y="39" font-family="Georgia, serif" font-size="17" fill="#3a3733">Нашла. Чай в четыре утра, только между нами.</text>
+    <text id="line" x="62" y="39" font-family="Georgia, serif" font-size="17" fill="#3a3733">Играю. Слушай, если не спешишь.</text>
   </g>
   <text x="862" y="348" font-family="Georgia, serif" font-size="13" fill="#3a3733" opacity="0.6" text-anchor="end">morning</text>
 </svg>

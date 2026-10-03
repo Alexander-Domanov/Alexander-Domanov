@@ -1,6 +1,6 @@
 <p align="center">
 <!-- room:start -->
-<img src="https://alexander-domanov.github.io/Alexander-Domanov/assets/room/room-night-8378098fdd.svg" width="880" alt="комната Мидзу и Моти: вид меняется по времени суток — утро, день, вечер, ночь">
+<img src="https://alexander-domanov.github.io/Alexander-Domanov/assets/room/room-night-f5e712d774.svg" width="880" alt="комната Мидзу и Моти: вид меняется по времени суток — утро, день, вечер, ночь">
 <!-- room:end -->
 </p>
 
