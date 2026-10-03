@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" class="moment-night m-lamp1 m-music0 m-drums1 m-guitar1 m-dog0 m-decor1 m-secret1" role="img" aria-label="Комната Мидзу и Моти, night">
+  <style>
+    @keyframes flicker { 0%,100% { opacity:0.72 } 43% { opacity:0.86 } 58% { opacity:0.67 } }
+    #lamp { animation: flicker 4.5s ease-in-out infinite; }
+    @keyframes breathe { 0%,100% { transform: translateY(0px) } 50% { transform: translateY(-2.5px) } }
+    #roommove { animation: breathe 11s ease-in-out infinite; }
+    @keyframes tip { 0%,60% { transform: translateX(0px) } 75% { transform: translateX(-4px) } 100% { transform: translateX(0px) } }
+    #drums .drum { animation: tip 6s ease-in-out infinite; }
+    /* ---- пульт: состояние комнаты ---- */
+    #dark { display:none }
+    #notes { display:none }
+    #mochi-sleep { display:none }
+    #bubble { display:none }
+    #secret { display:none }
+    .moment-night #mochi-awake { display:none }
+    .moment-night #mochi-sleep { display:inline }
+    .m-lamp0 #lamp { animation:none; opacity:0.04 }
+    .m-lamp0 #dark { display:inline; opacity:0.34 }
+    .m-lamp0 #screen { opacity:0.95 }
+    .m-music1 #notes { display:inline }
+    .m-drums1 #notes { display:inline }
+    .m-drums1 #drums .drum { opacity:1; stroke-width:3 }
+    .m-guitar1 #guitar { stroke-width:3; opacity:1 }
+    #guitar { opacity:0.55 }
+    .m-dog1 #mochi-awake { display:inline }
+    .m-dog1 #mochi-sleep { display:none }
+    .m-dog1 #bubble { display:inline }
+    .m-decor1 #wall { fill:#242033 }
+    .m-decor1 #back { fill:#242033 }
+    .m-secret1 #secret { display:inline }
+  </style>
+  <rect id="wall" width="900" height="360" fill="#1b1d24"/>
+  <rect id="back" y="280" width="900" height="80" fill="#171920"/>
+  <g id="roommove">
+    <!-- свет из окна лежит на полу и медленно едет по комнате -->
+    <rect x="80" y="284" width="230" height="66" fill="#20232e" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 26 0; 0 0" dur="14s" repeatCount="indefinite"/>
+    </rect>
+    <!-- окно и свет за ним -->
+    <rect x="70" y="60" width="220" height="150" rx="6" fill="#20232e"/>
+    <circle id="sun" cx="215" cy="105" r="20" fill="#cfd6e6" opacity="0.85">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M70 60 h220 M70 135 h220 M180 60 v150" stroke="#cfd3dd" stroke-width="2" opacity="0.35"/>
+    
+  <g id="guitar" stroke="#cfd3dd" stroke-width="2" fill="none" stroke-linecap="round">
+    <ellipse cx="812" cy="168" rx="26" ry="32" fill="#171920"/>
+    <circle cx="812" cy="168" r="8"/>
+    <path d="M812 136 v-58" stroke-width="6"/>
+    <path d="M804 78 h16 v-8 h-16 z" fill="#cfd3dd"/>
+    <path d="M806 150 h12 M806 176 h12" opacity="0.5"/>
+  </g>
+    
+  <g id="drums" stroke="#cfd3dd" stroke-width="2" fill="none" stroke-linecap="round">
+    <g class="drum" opacity="0.6">
+      <ellipse cx="140" cy="252" rx="34" ry="12" fill="#171920"/>
+      <path d="M106 252 v30 M174 252 v30 M106 282 q34 12 68 0"/>
+      <path d="M118 240 l-14 -26 M162 240 l14 -26"/>
+    </g>
+  </g>
+    <!-- настольная лампа -->
+    <g stroke="#cfd3dd" stroke-width="2" fill="none">
+      <path d="M600 280 v-70 h40 l-20 -26"/>
+      <path d="M640 184 l-46 14" />
+    </g>
+    <circle id="lamp" cx="612" cy="200" r="54" fill="#e8c27a" opacity="0.72"/>
+    <!-- стол и экран -->
+    <rect x="380" y="232" width="300" height="10" rx="3" fill="#cfd3dd" opacity="0.55"/>
+    <path d="M400 280 v-38 M660 280 v-38" stroke="#cfd3dd" stroke-width="3" opacity="0.35"/>
+    <rect x="430" y="196" width="150" height="36" rx="4" fill="#6f8fb5" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.72;0.92" dur="2.6s" repeatCount="indefinite"/>
+    </rect>
+    <!-- курсор на экране: мигает -->
+    <rect x="588" y="200" width="3" height="14" fill="#cfd3dd">
+      <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+    
+  <g id="mizu" transform="translate(520,176)" stroke="#cfd3dd" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M-16 34 h32" stroke-width="3"/>
+    <path d="M-9 34 M0 0 v-3 l0 -18" />
+    <path d="M9 34 M0 0 v-3 l0 -18" />
+    <path d="M-11 -8 q0 -14 11 -14 q11 0 11 14 z" fill="#cfd3dd" opacity="0.9" stroke="none"/>
+    <circle cx="0" cy="2" r="9" fill="#1b1d24"/>
+    <path d="M-9 -3 q9 -7 18 0" />
+    <path d="M-4 3 h1 M3 3 h1" stroke-width="2.4"/>
+    <path d="M-6 16 l6 5 l6 -5" />
+    <path d="M-12 16 l12 5 l12 -5" />
+  </g>
+    
+  <g id="mochi-awake" transform="translate(700,268)" stroke="#cfd3dd" stroke-width="2" fill="none" stroke-linecap="round">
+    <ellipse cx="0" cy="0" rx="20" ry="10" fill="#171920"/>
+    <circle cx="20" cy="-6" r="9" fill="#171920"/>
+    <path d="M-6 -6 l-3 -6 l6 1 z" fill="#cfd3dd"/>
+    <path d="M24 -6 h1" stroke-width="2.6"/>
+    <path d="M-14 8 q-6 4 -2 8" />
+    <path d="M-2 -10 q8 -8 14 -2" opacity="0.5"/>
+  </g>
+    
+  <g id="mochi-sleep" transform="translate(700,268) rotate(-4)" stroke="#cfd3dd" stroke-width="2" fill="none" stroke-linecap="round">
+    <ellipse cx="0" cy="0" rx="20" ry="10" fill="#171920"/>
+    <circle cx="20" cy="-6" r="9" fill="#171920"/>
+    <path d="M-6 -6 l-2 -4 l5 0 z" fill="#cfd3dd"/>
+    <path d="M23 -6 h2 M23 -6 v1" stroke-width="2.6"/>
+    <path d="M-14 8 q-6 4 -2 8" />
+    <path d="M-2 -10 q8 -8 14 -2" opacity="0.5"/>
+  </g>
+    <g id="notes">
+    <g transform="translate(160,196)" opacity="0.9">
+      <ellipse cx="0" cy="0" rx="5" ry="4" fill="#cfd3dd"/>
+      <path d="M5 0 v-22" stroke="#cfd3dd" stroke-width="2"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        values="0 0; 6 -14; 0 -28" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.4;0" dur="3s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(196,176)" opacity="0.9">
+      <ellipse cx="0" cy="0" rx="5" ry="4" fill="#cfd3dd"/>
+      <path d="M5 0 v-22" stroke="#cfd3dd" stroke-width="2"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        values="0 0; 6 -14; 0 -28" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.4;0" dur="4s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(232,156)" opacity="0.9">
+      <ellipse cx="0" cy="0" rx="5" ry="4" fill="#cfd3dd"/>
+      <path d="M5 0 v-22" stroke="#cfd3dd" stroke-width="2"/>
+      <animateTransform attributeName="transform" type="translate" additive="sum"
+        values="0 0; 6 -14; 0 -28" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.4;0" dur="5s" repeatCount="indefinite"/>
+    </g></g>
+    <g id="bubble">
+      <rect x="716" y="212" width="62" height="26" rx="13" fill="#171920" opacity="0.95"/>
+      <text x="747" y="231" font-family="Georgia, serif" font-size="15" fill="#cfd3dd" text-anchor="middle">гав</text>
+    </g>
+    <rect id="dark" x="0" y="0" width="900" height="360" fill="#0a0c14"/>
+    <g id="secret">
+      <text x="40" y="344" font-family="Georgia, serif" font-size="14" fill="#cfd3dd" opacity="0.8">★ чай в четыре утра</text>
+    </g>
+  </g>
+  
+  <circle cx="150" cy="90" r="1.6" fill="#8fa2c0" opacity="0.37">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 22 -15; 0 0" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.25;0.5;0.2" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="130" r="2.2" fill="#8fa2c0" opacity="0.49">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 28 -20; 0 0" dur="13s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.35;0.5;0.2" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="260" cy="200" r="1.0" fill="#8fa2c0" opacity="0.61">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 34 -10; 0 0" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0.5;0.2" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="495" cy="120" r="1.6" fill="#8fa2c0" opacity="0.25">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 40 -15; 0 0" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.25;0.5;0.2" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="540" cy="160" r="2.2" fill="#8fa2c0" opacity="0.37">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 16 -20; 0 0" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.35;0.5;0.2" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="620" cy="150" r="1.0" fill="#8fa2c0" opacity="0.49">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 22 -10; 0 0" dur="13s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0.5;0.2" dur="11s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="275" cy="250" r="1.6" fill="#8fa2c0" opacity="0.61">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 28 -15; 0 0" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.25;0.5;0.2" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="655" cy="105" r="2.2" fill="#8fa2c0" opacity="0.25">
+    <animateTransform attributeName="transform" type="translate"
+      values="0 0; 34 -20; 0 0" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.35;0.5;0.2" dur="13s" repeatCount="indefinite"/>
+  </circle>
+  <!-- реплика -->
+  <g>
+    <rect x="40" y="16" width="620" height="34" rx="17" fill="#171920" opacity="0.95"/>
+    <text id="line" x="62" y="39" font-family="Georgia, serif" font-size="17" fill="#cfd3dd">Нашла. Чай в четыре утра, только между нами.</text>
+  </g>
+  <text x="862" y="348" font-family="Georgia, serif" font-size="13" fill="#cfd3dd" opacity="0.6" text-anchor="end">night</text>
+</svg>

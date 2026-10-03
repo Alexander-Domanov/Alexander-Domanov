@@ -34,7 +34,7 @@ jobs:
           python-version: "3.12"
 
       - name: Draw the room for the current hour
-        run: python3 scripts/room.py --remote
+        run: python3 scripts/room.py --remote --all-moments
 
       - name: Commit when the room changed
         run: |
