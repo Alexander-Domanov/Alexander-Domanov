@@ -67,6 +67,15 @@ def char_w(size, mono=True) -> float:
     return size * (0.60 if mono else 0.515)
 
 
+def human(size) -> str:
+    """Bytes as a short human string, for the materials list."""
+    for unit in ("B", "KB", "MB", "GB"):
+        if size < 1024:
+            return f"{size:.0f} {unit}" if unit == "B" else f"{size:.1f} {unit}"
+        size /= 1024
+    return f"{size:.1f} TB"
+
+
 def fit(s, size, max_px, mono=True):
     """Trim to the longest prefix that fits, with a trailing ellipsis."""
     s = " ".join(str(s).split())
@@ -267,138 +276,170 @@ def aggregate(counts: dict) -> dict:
 
 
 # --------------------------------------------------------------------------
-# figures
+# figures — one drawing set, not a pile of widgets: every figure carries the
+# same chrome, its own figure number, and each number is printed exactly once
+# across the whole page
 # --------------------------------------------------------------------------
+FIG_ORDER = ("hero", "fig-shipped", "fig-stats", "fig-load", "fig-stack")
+
+
+def chrome(W, H, p, theme, key, rev=None, foot=None):
+    """Outer frame, numbered caption and revision stamp shared by every figure."""
+    n = FIG_ORDER.index(key) + 1
+    body = [f'<rect x="8.5" y="8.5" width="{W - 17}" height="{H - 17}" fill="none" '
+            f'stroke="{p["line_strong"]}"/>',
+            txt(28, 34, f'FIG. {n} — {theme["labels"]["figure_titles"][key]}', 11,
+                p["dim"], ls=2.4)]
+    if rev:
+        body.append(txt(872, 34, f'REV {rev}', 9, p["faint"], anchor="end", ls=1.4))
+    body.append(f'<line x1="28" y1="46" x2="{W - 28}" y2="46" stroke="{p["line"]}"/>')
+    if foot:
+        body.append(f'<line x1="28" y1="{H - 28}" x2="{W - 28}" y2="{H - 28}" '
+                    f'stroke="{p["line"]}"/>')
+        body.append(txt(28, H - 12, foot, 10, p["dim"], ls=1.4))
+    return body
+
+
+def scale_bar(p, y, x0, x1, months):
+    """Drafting ruler. Tick every month, longer tick every quarter."""
+    out = [f'<line x1="{x0}" y1="{y}" x2="{x1}" y2="{y}" stroke="{p["line_strong"]}"/>']
+    for m in range(months + 1):
+        x = x0 + (x1 - x0) * m / months
+        h = 6 if m % 3 == 0 else 3
+        out.append(f'<line x1="{x:.1f}" y1="{y}" x2="{x:.1f}" y2="{y - h}" '
+                   f'stroke="{p["line_strong"]}"/>')
+    return out
+
+
 def fig_hero(p, theme, stats, profile, stamp) -> str:
     L = theme["labels"]
     W, H = 900, 250
-    body = [f'<rect x="8.5" y="8.5" width="{W-17}" height="{H-17}" fill="none" '
-            f'stroke="{p["line_strong"]}"/>']
-    body.append(txt(28, 40, f'{L["hero_kicker"]} / REV {stamp}', 11, p["dim"], ls=3))
-    body.append(txt(28, 98, profile["name"].upper(), 30, p["text"]))
-    body.append(txt(28, 128, L["hero_role"], 13, p["accent"]))
-    body.append(f'<circle cx="30" cy="156" r="2.5" fill="{p["accent"]}"/>'
-                f'<line x1="30" y1="156" x2="220" y2="156" stroke="{p["line_strong"]}"/>')
-    body.append(txt(230, 160, L["hero_note_1"], 11, p["dim"]))
-    body.append(f'<circle cx="30" cy="182" r="2.5" fill="{p["accent"]}"/>'
-                f'<line x1="30" y1="182" x2="220" y2="182" stroke="{p["line_strong"]}"/>')
-    body.append(txt(230, 186, L["hero_note_2"], 11, p["dim"]))
-    body.append(f'<circle cx="30" cy="208" r="2.5" fill="{p["warm"]}"/>'
-                f'<line x1="30" y1="208" x2="220" y2="208" stroke="{p["line_strong"]}"/>')
-    body.append(txt(230, 212, L["hero_status"], 11, p["warm"]))
-    # title block, bottom right
-    bx, by, bw, bh = 560, 150, 324, 68
-    body.append(f'<rect x="{bx}" y="{by}" width="{bw}" height="{bh}" fill="{p["panel"]}" '
-                f'stroke="{p["line_strong"]}"/>')
+    body = chrome(W, H, p, theme, "hero", rev=stamp)
+    body.append(txt(28, 92, profile["name"].upper(), 30, p["text"]))
+    body.append(txt(28, 120, L["hero_role"], 13, p["accent"]))
+    for i, (note, colour) in enumerate([(L["hero_note_1"], p["dim"]),
+                                        (L["hero_note_2"], p["dim"]),
+                                        (L["hero_status"], p["warm"])]):
+        y = 150 + i * 24
+        body.append(f'<circle cx="30" cy="{y}" r="2.5" fill="{colour}"/>'
+                    f'<line x1="30" y1="{y}" x2="220" y2="{y}" stroke="{p["line_strong"]}"/>')
+        body.append(txt(230, y + 4, note, 11, colour))
+    bx, by, bw, bh = 560, 130, 162, 88
     cells = L["titleblock"]
+    body.append(f'<rect x="{bx}" y="{by}" width="{bw * 2}" height="{bh}" fill="{p["panel"]}" '
+                f'stroke="{p["line_strong"]}"/>')
     for row in range(2):
         for col in range(2):
             key, value = cells[row * 2 + col]
-            cx, cy = bx + col * 162, by + row * 34
-            body.append(f'<line x1="{cx+162}" y1="{cy}" x2="{cx+162}" y2="{cy+34}" '
-                        f'stroke="{p["line"]}"/>' if col == 0 else "")
-            body.append(f'<line x1="{bx}" y1="{cy+34}" x2="{bx+bw}" y2="{cy+34}" '
-                        f'stroke="{p["line"]}"/>' if row == 0 else "")
-            body.append(txt(cx + 12, cy + 17, key, 8, p["dim"], ls=1.5))
-            body.append(txt(cx + 12, cy + 30, value, 12, p["text"]))
-    body.append(f'<line x1="28" y1="228" x2="520" y2="228" stroke="{p["line_strong"]}"/>')
-    body.append(f'<line x1="28" y1="223" x2="28" y2="233" stroke="{p["line_strong"]}"/>')
-    body.append(f'<line x1="520" y1="223" x2="520" y2="233" stroke="{p["line_strong"]}"/>')
-    body.append(txt(28, 222, f'{L["hero_axis"]} · {stats["active_days"]} ACTIVE DAYS', 10, p["dim"], ls=1.6))
+            cx, cy = bx + col * bw, by + row * 44
+            if col == 0:
+                body.append(f'<line x1="{cx + bw}" y1="{cy}" x2="{cx + bw}" y2="{cy + 44}" '
+                            f'stroke="{p["line"]}"/>')
+            if row == 0:
+                body.append(f'<line x1="{bx}" y1="{cy + 44}" x2="{bx + bw * 2}" y2="{cy + 44}" '
+                            f'stroke="{p["line"]}"/>')
+            body.append(txt(cx + 12, cy + 19, key, 8, p["dim"], ls=1.5))
+            body.append(txt(cx + 12, cy + 36, value, 12, p["text"]))
+    body += scale_bar(p, 226, 28, 520, 12)
+    body.append(txt(28, 218, L["hero_axis"], 9, p["dim"], ls=1.3))
+    body.append(txt(520, 218, L["hero_axis_end"], 9, p["dim"], anchor="end", ls=1.3))
     return svg(W, H, p, "\n".join(x for x in body if x), "profile title block")
 
 
-def fig_shipped(p, theme, shipped, stats) -> str:
+def fig_shipped(p, theme, shipped, stats, rev=None) -> str:
     W = 900
     rows = max(1, len(shipped))
-    H = 96 + rows * 32
-    body = [txt(28, 34, theme["labels"]["fig_shipped"], 11, p["dim"], ls=2.2)]
-    y = 60
+    H = 118 + rows * 32
+    foot = f'LAST PUBLIC COMMIT {stats["last_active"] or "—"} · ONE ROW PER REPOSITORY'
+    body = chrome(W, H, p, theme, "fig-shipped", rev=rev, foot=foot)
+    for x, label, anchor in ((28, "DATE", "start"), (120, "REPOSITORY", "start"),
+                             (285, "COMMIT MESSAGE", "start")):
+        body.append(txt(x, 70, label, 8.5, p["faint"], ls=1.6, anchor=anchor))
+    body.append(f'<line x1="28" y1="78" x2="872" y2="78" stroke="{p["line_strong"]}"/>')
+    y = 102
     if not shipped:
-        body.append(txt(28, y + 12, "no public commits in the recent window", 12.5, p["dim"], mono=False))
-    for i, item in enumerate(shipped):
-        body.append(f'<line x1="28" y1="{y - 18}" x2="872" y2="{y - 18}" stroke="{p["line"]}"/>')
+        body.append(txt(28, y, "no public commits in the recent window", 12.5, p["dim"],
+                        mono=False))
+    for item in shipped:
         body.append(txt(28, y, item["date"].strftime("%Y-%m-%d"), 11, p["faint"]))
         body.append(txt(120, y, fit(item["repo"], 12, 150), 12, p["accent"]))
-        body.append(txt(285, y, fit(item["message"], 12.5, 560, mono=False), 12.5, p["text"], mono=False))
+        body.append(txt(285, y, fit(item["message"], 12.5, 560, mono=False), 12.5,
+                        p["text"], mono=False))
+        body.append(f'<line x1="28" y1="{y + 10}" x2="872" y2="{y + 10}" stroke="{p["line"]}"/>')
         y += 32
-    body.append(f'<line x1="28" y1="{y - 18}" x2="872" y2="{y - 18}" stroke="{p["line"]}"/>')
-    body.append(txt(28, H - 16, f'LAST ACTIVE DAY {stats["last_active"] or "—"} · '
-                                f'{stats["contributions"]} CONTRIBUTIONS / {stats["active_days"]} DAYS',
-                    10, p["dim"], ls=1.2))
     return svg(W, H, p, "\n".join(body), "last shipped public commits")
 
 
-def fig_load(p, theme, stats) -> str:
-    W, H = 900, 210
+def fig_load(p, theme, stats, rev=None) -> str:
+    W, H = 900, 232
     months = stats["months"]
     top = max((v for _, v in months), default=0) or 1
-    axis_max = max(5, -(-top // 5) * 5)      # round the axis up to a clean top line
-    body = [txt(76, 34, theme["labels"]["fig_load"], 11, p["dim"], ls=2.2),
-            txt(840, 34, theme["labels"]["axis_unit"], 9, p["faint"], anchor="end", ls=1.2)]
-    body.append(f'<line x1="76" y1="150" x2="840" y2="150" stroke="{p["line_strong"]}"/>')
+    axis_max = max(4, -(-top // 4) * 4)      # keep the middle tick at exactly half
+    base, tall = 164, 86
+    body = chrome(W, H, p, theme, "fig-load", rev=rev, foot=theme["labels"]["footer_caveat"])
+    body.append(txt(872, 62, theme["labels"]["axis_unit"], 9, p["faint"], anchor="end", ls=1.2))
     for value in (axis_max, axis_max // 2):
-        y = 150 - 76 * value / axis_max
-        body.append(f'<line x1="76" y1="{y:.1f}" x2="840" y2="{y:.1f}" '
-                    f'stroke="{p["line"]}" stroke-dasharray="3 5"/>')
+        y = base - tall * value / axis_max
+        body.append(f'<line x1="76" y1="{y:.1f}" x2="872" y2="{y:.1f}" stroke="{p["line"]}" '
+                    f'stroke-dasharray="3 5"/>')
         body.append(txt(68, y + 3, value, 9, p["faint"], anchor="end"))
-    body.append(txt(68, 153, "0", 9, p["faint"], anchor="end"))
-    step = (840 - 76) / len(months)
+    body.append(txt(68, base + 3, "0", 9, p["faint"], anchor="end"))
+    body.append(f'<line x1="76" y1="{base}" x2="872" y2="{base}" stroke="{p["line_strong"]}"/>')
+    step = (872 - 76) / len(months)
     for i, (key, value) in enumerate(months):
         x = 76 + i * step
-        hgt = 4 if not value else 10 + value / axis_max * 66
+        hgt = 4 if not value else 12 + value / axis_max * (tall - 12)
         fill = p["zero"] if not value else p["accent"]
-        opacity = "0.5" if not value else "0.92"
-        body.append(f'<rect x="{x + 4:.1f}" y="{150 - hgt:.1f}" width="{step - 22:.1f}" '
-                    f'height="{hgt:.1f}" fill="{fill}" opacity="{opacity}"/>')
-        body.append(txt(x + (step - 14) / 2 - 2, 168, key[5:], 10, p["dim"], anchor="middle"))
-    body.append(txt(76, 196, f'TOTAL {stats["contributions"]} CONTRIBUTIONS · '
-                             f'{stats["active_days"]} ACTIVE DAYS · '
-                             f'{theme["labels"]["footer_caveat"]}', 11, p["dim"]))
+        body.append(f'<rect x="{x + 12:.1f}" y="{base - hgt:.1f}" width="{step - 24:.1f}" '
+                    f'height="{hgt:.1f}" fill="{fill}" opacity="'
+                    f'{"0.55" if not value else "0.92"}"/>')
+        body.append(txt(x + step / 2, 182, key[5:], 10, p["dim"], anchor="middle"))
     return svg(W, H, p, "\n".join(body), "active days per month")
 
 
-def fig_stats(p, stats, profile) -> str:
-    W, H = 900, 104
+def fig_stack(p, theme, languages, rev=None) -> str:
+    W, H = 900, 196
+    top = languages.most_common(5)
+    total = sum(languages.values()) or 1
+    body = chrome(W, H, p, theme, "fig-stack", rev=rev,
+                  foot=f'TOP {len(top)} OF {len(languages)} LANGUAGES · BYTES OF CODE')
+    x, bar_y, bar_h = 28, 58, 28
+    for i, (lang, size) in enumerate(top):
+        width = (W - 56) * size / total
+        body.append(f'<rect x="{x:.1f}" y="{bar_y}" width="{max(width, 2):.1f}" '
+                    f'height="{bar_h}" fill="{p["bar"][i % len(p["bar"])]}" '
+                    f'stroke="{p["panel"]}" stroke-width="1.5"/>')
+        if width > 70:
+            body.append(txt(x + 10, bar_y + 19, f'{size / total * 100:.0f}%', 12,
+                            p["page"] if i == 0 else p["text"]))
+        x += width
+    for i, (lang, size) in enumerate(top):          # bill of materials
+        col, row = divmod(i, 3)
+        lx, ly = 28 + col * 442, 116 + row * 22
+        body.append(f'<rect x="{lx}" y="{ly - 9}" width="10" height="10" '
+                    f'fill="{p["bar"][i % len(p["bar"])]}" stroke="{p["line_strong"]}"/>')
+        body.append(txt(lx + 18, ly, lang, 12, p["text"], mono=False))
+        body.append(txt(lx + 424, ly, f'{size / total * 100:.1f}% · {human(size)}', 10.5,
+                        p["dim"], anchor="end"))
+    return svg(W, H, p, "\n".join(body), "languages by bytes")
+
+
+def fig_stats(p, theme, stats, profile, rev=None) -> str:
+    W, H = 900, 130
     cells = [("CONTRIBUTIONS / 12 MO", f'{stats["contributions"]}'),
              ("ACTIVE DAYS", f'{stats["active_days"]}'),
-             ("LONGEST RUN", f'{stats["longest_run"]} D'),
+             ("LONGEST RUN / DAYS", f'{stats["longest_run"]}'),
              ("PUBLIC REPOS", f'{profile["public_repos"]}'),
              ("FOLLOWERS", f'{profile["followers"]}')]
     step = W / len(cells)
-    body = []
+    body = chrome(W, H, p, theme, "fig-stats", rev=rev)
     for i, (label, value) in enumerate(cells):
         x = i * step
         if i:
-            body.append(f'<line x1="{x:.1f}" y1="20" x2="{x:.1f}" y2="{H-20}" stroke="{p["line"]}"/>')
-        body.append(txt(x + 26, 52, value, 26, p["text"]))
-        body.append(txt(x + 26, 74, label, 9, p["dim"], ls=1.6))
+            body.append(f'<line x1="{x:.1f}" y1="62" x2="{x:.1f}" y2="116" stroke="{p["line"]}"/>')
+        body.append(txt(x + 26, 86, value, 26, p["text"]))
+        body.append(txt(x + 26, 108, label, 8.5, p["dim"], ls=1.5))
     return svg(W, H, p, "\n".join(body), "profile statistics")
-
-
-def fig_stack(p, theme, languages) -> str:
-    W, H = 900, 156
-    top = languages.most_common(5)
-    total = sum(languages.values()) or 1
-    body = [txt(28, 34, theme["labels"]["fig_stack"], 11, p["dim"], ls=2.2)]
-    x, bar_y, bar_h = 28, 56, 30
-    for i, (lang, size) in enumerate(top):
-        width = (W - 56) * size / total
-        body.append(f'<rect x="{x:.1f}" y="{bar_y}" width="{max(width, 2):.1f}" height="{bar_h}" '
-                    f'fill="{p["bar"][i % len(p["bar"])]}" stroke="{p["panel"]}" stroke-width="1.5"/>')
-        if width > 70:
-            body.append(txt(x + 10, bar_y + 20, f'{size/total*100:.0f}%', 12,
-                            p["page"] if i == 0 else p["text"]))
-        x += width
-    lx = 28
-    for i, (lang, size) in enumerate(top):
-        body.append(f'<rect x="{lx}" y="108" width="10" height="10" fill="{p["bar"][i % len(p["bar"])]}" '
-                    f'stroke="{p["line_strong"]}" stroke-width="1"/>')
-        body.append(txt(lx + 18, 117, lang, 12, p["text"], mono=False))
-        lx += 18 + char_w(12, False) * len(lang) + 34
-    body.append(txt(872, 148, f'TOP {len(top)} OF {len(languages)} LANGUAGES · BYTES OF CODE', 9,
-                    p["faint"], anchor="end", ls=1.2))
-    return svg(W, H, p, "\n".join(body), "languages by bytes")
 
 
 # --------------------------------------------------------------------------
@@ -423,10 +464,10 @@ def main() -> int:
 
     figures = {
         "hero": lambda p: fig_hero(p, theme, stats, profile, stamp),
-        "fig-shipped": lambda p: fig_shipped(p, theme, shipped, stats),
-        "fig-stats": lambda p: fig_stats(p, stats, profile),
-        "fig-load": lambda p: fig_load(p, theme, stats),
-        "fig-stack": lambda p: fig_stack(p, theme, languages),
+        "fig-shipped": lambda p: fig_shipped(p, theme, shipped, stats, stamp),
+        "fig-stats": lambda p: fig_stats(p, theme, stats, profile, stamp),
+        "fig-load": lambda p: fig_load(p, theme, stats, stamp),
+        "fig-stack": lambda p: fig_stack(p, theme, languages, stamp),
     }
 
     written = 0
