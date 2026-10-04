@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T20:00:28+00:00",
+  "generated_at": "2026-10-04T11:07:30+00:00",
   "login": "Alexander-Domanov",
   "stats": {
     "months": [
@@ -49,21 +49,21 @@
       ],
       [
         "2026-10",
-        1
+        2
       ]
     ],
-    "contributions": 294,
-    "active_days": 48,
+    "contributions": 306,
+    "active_days": 49,
     "longest_run": 6,
-    "tracked_days": 371,
-    "last_active": "2026-10-03"
+    "tracked_days": 365,
+    "last_active": "2026-10-04"
   },
   "shipped": [
     {
       "repo": "console",
-      "date": "2026-10-03",
-      "message": "feat(console): terminal, studio and a tape deck that boots DOOM shareware",
-      "sha": "b11a6a2"
+      "date": "2026-10-04",
+      "message": "feat(room): English only - the page talks to the guest in one language",
+      "sha": "cced4e7"
     },
     {
       "repo": "snake-arena",
@@ -92,8 +92,8 @@
   ],
   "languages": {
     "TypeScript": 964393,
-    "Python": 125804,
-    "HTML": 125114,
+    "HTML": 179165,
+    "Python": 155254,
     "CSS": 81797,
     "JavaScript": 55754,
     "SCSS": 35518,
