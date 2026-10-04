@@ -28,6 +28,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Полная история: без неё push ветки витрины отклоняется «fetch first».
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -47,4 +50,7 @@ jobs:
           git add assets/room README.md
           git commit -m "chore(room): redraw the room for this hour [skip ci]"
           git push origin HEAD:main
+          # Ветка витрины обязана ехать за main: проверка пункта 1 сверяет их
+          # README. Берём ветку из origin явно, иначе push спотыкается.
+          git fetch --no-tags origin main profile/blueprint-readme
           git push origin HEAD:profile/blueprint-readme
