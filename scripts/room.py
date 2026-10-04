@@ -50,7 +50,7 @@ REMOTE_KEEP = 12 * 3600  # столько ntfy держит сообщение; 
 START = "<!-- room:start -->"
 END = "<!-- room:end -->"
 
-ALT = "комната Мидзу и Моти: вид меняется по времени суток — утро, день, вечер, ночь"
+ALT = "the room of Mizu and Mochi: the view changes with the hour - morning, day, evening, night"
 
 # Честная подпись: рядом с комнатой в README строка, что это живой код на странице,
 # а не картинка, и ссылка на исходники. Иначе комната смахивает на статичную картинку.
@@ -78,19 +78,19 @@ PALETTE = {
     "morning": dict(room="#f2ece2", back="#e6dccd", window="#cfe3f0", sun="#f7d774",
                     lamp="#c9b48c", glow=0.18, screen="#dfe9d6", ink="#3a3733",
                     dust="#b9a98c", decor="#e3d7ef",
-                    line="Окно открыла. Чайник греется, садись."),
+                    line="I opened the window. The kettle is on, sit down."),
     "day": dict(room="#eef1f5", back="#e0e6ee", window="#c9dced", sun="#fdf3c8",
                 lamp="#b9bcc4", glow=0.10, screen="#d8e6ef", ink="#2f3540",
                 dust="#9fb0c2", decor="#dfe7f2",
-                line="Работаю. Спрашивай, отвечу по делу."),
+                line="Working. Ask me, I answer to the point."),
     "evening": dict(room="#3b3140", back="#332a38", window="#4a3b55", sun="#e9a86a",
                     lamp="#f0b96b", glow=0.85, screen="#c8a2d6", ink="#efe6ea",
                     dust="#c9a0b8", decor="#4a3550",
-                    line="Лампа тёплая. Читаю, но слушаю."),
+                    line="The lamp is warm. I am reading, but listening."),
     "night": dict(room="#1b1d24", back="#171920", window="#20232e", sun="#cfd6e6",
                   lamp="#e8c27a", glow=0.72, screen="#6f8fb5", ink="#cfd3dd",
                   dust="#8fa2c0", decor="#242033",
-                  line="Тихо. Экран светит, я дремлю."),
+                  line="Quiet. The screen is glowing, I am dozing."),
 }
 
 AWAKE = {"morning": 1, "day": 1, "evening": 1, "night": 0}      # Моти спит ночью
@@ -177,17 +177,17 @@ def remote_state(timeout=8):
 def line_for(moment, state):
     """Реплика Мидзу: короткая, до двенадцати слов, без восклицаний."""
     if state.get("secret"):
-        return "Нашла. Чай в четыре утра, только между нами."
+        return "Found it. Tea at four in the morning. Just between us."
     if state.get("drums"):
-        return "Барабаны. Моти сейчас уйдёт спать в коридор."
+        return "Drums. Mochi will go sleep in the hallway now."
     if state.get("music"):
-        return "Играю. Слушай, если не спешишь."
+        return "Playing. Listen, if you are not in a hurry."
     if state.get("dog"):
-        return "Моти проснулся. Он тебя видит."
+        return "Mochi is awake. He can see you."
     if not state.get("lamp"):
-        return "Свет выключила. Экрана хватит."
+        return "Lamp off. The screen is enough."
     if state.get("decor"):
-        return "Стены другие. Мне так спокойнее."
+        return "Different walls. I breathe easier like this."
     return PALETTE[moment]["line"]
 
 
@@ -387,11 +387,11 @@ def room(moment, state=None):
     <g id="music">{music(p)}</g>
     <g id="bubble">
       <rect x="716" y="212" width="62" height="26" rx="13" fill="{p['back']}" opacity="0.95"/>
-      <text x="747" y="231" font-family="Georgia, serif" font-size="15" fill="{p['ink']}" text-anchor="middle">гав</text>
+      <text x="747" y="231" font-family="Georgia, serif" font-size="15" fill="{p['ink']}" text-anchor="middle">woof</text>
     </g>
     <rect id="dark" x="0" y="0" width="900" height="360" fill="#0a0c14"/>
     <g id="secret">
-      <text x="40" y="344" font-family="Georgia, serif" font-size="14" fill="{p['ink']}" opacity="0.8">★ чай в четыре утра</text>
+      <text x="40" y="344" font-family="Georgia, serif" font-size="14" fill="{p['ink']}" opacity="0.8">★ tea at four in the morning</text>
     </g>
   </g>
   {motes}

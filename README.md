@@ -1,6 +1,6 @@
 <p align="center">
 <!-- room:start -->
-<img src="https://alexander-domanov.github.io/Alexander-Domanov/assets/room/room-morning-555c36fb9f.svg" width="880" alt="комната Мидзу и Моти: вид меняется по времени суток — утро, день, вечер, ночь">
+<img src="https://alexander-domanov.github.io/Alexander-Domanov/assets/room/room-day-8ed324cea0.svg" width="880" alt="the room of Mizu and Mochi: the view changes with the hour - morning, day, evening, night">
 <sub>the room above is not a picture — it is a live page: press the switches and the same state rides into the URL. <a href="https://alexander-domanov.github.io/console/room.html">step inside</a> · source <a href="https://github.com/Alexander-Domanov/console">Alexander-Domanov/console</a></sub>
 <!-- room:end -->
 </p>
