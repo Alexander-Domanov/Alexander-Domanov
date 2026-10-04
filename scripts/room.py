@@ -311,7 +311,7 @@ def room(moment, state=None):
     glow = p["glow"] if state.get("lamp") else 0.02
     motes = "".join(dust(p, i, x, y) for i, x, y in DUST)
     line = line_for(moment, state)
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" class="moment-{moment} {state_text(state)}" role="img" aria-label="Комната Мидзу и Моти, {moment}">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" class="moment-{moment} {state_text(state)}" role="img" aria-label="Mizu and Mochi's room, {moment}">''
   <style>
     @keyframes flicker {{ 0%,100% {{ opacity:{glow:.2f} }} 43% {{ opacity:{min(1.0, glow + 0.14):.2f} }} 58% {{ opacity:{max(0.05, glow - 0.05):.2f} }} }}
     #lamp {{ animation: flicker 4.5s ease-in-out infinite; }}
