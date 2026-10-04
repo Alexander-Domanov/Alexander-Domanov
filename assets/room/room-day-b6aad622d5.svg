@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" class="moment-day m-lamp1 m-music0 m-drums0 m-guitar0 m-dog0 m-decor0 m-secret0" role="img" aria-label="Mizu and Mochi's room, day">''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" class="moment-day m-lamp1 m-music1 m-drums1 m-guitar1 m-dog0 m-decor1 m-secret1" role="img" aria-label="Mizu and Mochi's room, day">''
   <style>
     @keyframes flicker { 0%,100% { opacity:0.10 } 43% { opacity:0.24 } 58% { opacity:0.05 } }
     #lamp { animation: flicker 4.5s ease-in-out infinite; }
@@ -203,7 +203,7 @@
   <!-- реплика -->
   <g>
     <rect x="40" y="16" width="620" height="34" rx="17" fill="#e0e6ee" opacity="0.95"/>
-    <text id="line" x="62" y="39" font-family="Georgia, serif" font-size="17" fill="#2f3540">Working. Ask me, I answer to the point.</text>
+    <text id="line" x="62" y="39" font-family="Georgia, serif" font-size="17" fill="#2f3540">Found it. Tea at four in the morning. Just between us.</text>
   </g>
   <text x="862" y="348" font-family="Georgia, serif" font-size="13" fill="#2f3540" opacity="0.6" text-anchor="end">day</text>
 </svg>

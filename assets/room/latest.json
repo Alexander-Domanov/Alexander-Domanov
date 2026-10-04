@@ -1,13 +1,13 @@
 {
-  "name": "room-evening-f4e146fe32.svg",
+  "name": "room-evening-e08383de52.svg",
   "moment": "evening",
-  "state": "m-lamp1 m-music0 m-drums0 m-guitar0 m-dog0 m-decor0 m-secret0",
-  "stateFrom": "owner",
-  "url": "https://alexander-domanov.github.io/Alexander-Domanov/assets/room/room-evening-f4e146fe32.svg",
+  "state": "m-lamp1 m-music1 m-drums1 m-guitar1 m-dog0 m-decor1 m-secret1",
+  "stateFrom": "guest",
+  "url": "https://alexander-domanov.github.io/Alexander-Domanov/assets/room/room-evening-e08383de52.svg",
   "moments": {
-    "morning": "room-morning-17c91edccd.svg",
-    "day": "room-day-d4946e4a4a.svg",
-    "evening": "room-evening-f4e146fe32.svg",
-    "night": "room-night-970a8c49be.svg"
+    "morning": "room-morning-f749b96b92.svg",
+    "day": "room-day-b6aad622d5.svg",
+    "evening": "room-evening-e08383de52.svg",
+    "night": "room-night-72eca79f4d.svg"
   }
 }
