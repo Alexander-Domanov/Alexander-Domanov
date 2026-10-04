@@ -2,17 +2,17 @@
 <defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#16304d" stroke-width="1"/></pattern></defs><rect width="900" height="278" fill="#0e2035"/><rect width="900" height="278" fill="url(#g)"/>
 <rect x="8.5" y="8.5" width="883" height="261" fill="none" stroke="#2f5480"/>
 <text x="28.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#93aec9" letter-spacing="2.4">FIG. 2 — LAST SHIPPED / PUBLIC COMMITS, NEWEST FIRST</text>
-<text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#63849f" text-anchor="end" letter-spacing="1.4">REV 2026-10-03</text>
+<text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#63849f" text-anchor="end" letter-spacing="1.4">REV 2026-10-04</text>
 <line x1="28" y1="46" x2="872" y2="46" stroke="#1f3a57"/>
 <line x1="28" y1="250" x2="872" y2="250" stroke="#1f3a57"/>
-<text x="28.0" y="266.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#93aec9" letter-spacing="1.4">LAST PUBLIC COMMIT 2026-10-03 · ONE ROW PER REPOSITORY</text>
+<text x="28.0" y="266.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#93aec9" letter-spacing="1.4">LAST PUBLIC COMMIT 2026-10-04 · ONE ROW PER REPOSITORY</text>
 <text x="28.0" y="70.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" fill="#63849f" letter-spacing="1.6">DATE</text>
 <text x="120.0" y="70.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" fill="#63849f" letter-spacing="1.6">REPOSITORY</text>
 <text x="285.0" y="70.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" fill="#63849f" letter-spacing="1.6">COMMIT MESSAGE</text>
 <line x1="28" y1="78" x2="872" y2="78" stroke="#2f5480"/>
-<text x="28.0" y="102.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#63849f">2026-10-03</text>
+<text x="28.0" y="102.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#63849f">2026-10-04</text>
 <text x="120.0" y="102.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#7fd1f5">console</text>
-<text x="285.0" y="102.0" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" fill="#dce8f5">feat(console): terminal, studio and a tape deck that boots DOOM shareware</text>
+<text x="285.0" y="102.0" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" fill="#dce8f5">feat(room): English only - the page talks to the guest in one language</text>
 <line x1="28" y1="112" x2="872" y2="112" stroke="#1f3a57"/>
 <text x="28.0" y="134.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#63849f">2026-09-04</text>
 <text x="120.0" y="134.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#7fd1f5">snake-arena</text>
