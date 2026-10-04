@@ -52,6 +52,17 @@ END = "<!-- room:end -->"
 
 ALT = "комната Мидзу и Моти: вид меняется по времени суток — утро, день, вечер, ночь"
 
+# Честная подпись: рядом с комнатой в README строка, что это живой код на странице,
+# а не картинка, и ссылка на исходники. Иначе комната смахивает на статичную картинку.
+# Живёт в самом генераторе, поэтому воркер перерисовывает README вместе с подписью —
+# подпись не отстаёт от комнаты.
+CAPTION = (
+    "<sub>the room above is not a picture — it is a live page: "
+    "press the switches and the same state rides into the URL. "
+    "<a href=\"https://alexander-domanov.github.io/console/room.html\">step inside</a> · "
+    "source <a href=\"https://github.com/Alexander-Domanov/console\">Alexander-Domanov/console</a></sub>"
+)
+
 STATES = ("morning", "day", "evening", "night")
 
 # часы Минска, в которые начинается состояние
@@ -445,7 +456,7 @@ def update_readme(name):
         text = fh.read()
     url = f"{BASE}/assets/room/{name}"
     img = f'<img src="{url}" width="880" alt="{ALT}">'
-    block = f"{START}\n{img}\n{END}"
+    block = f"{START}\n{img}\n{CAPTION}\n{END}"
     if START in text and END in text:
         text = re.sub(re.escape(START) + r".*?" + re.escape(END), block, text, flags=re.S)
     else:
