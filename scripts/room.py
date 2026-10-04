@@ -333,11 +333,6 @@ def room(moment, state=None):
        пузырь), и кнопка «Моти» у гостя ничего не меняет. */
     .m-dog0 #mochi-awake {{ display:none }}
     .m-dog0 #mochi-sleep {{ display:inline }}
-    /* Моти: m-dog0 — спит, m-dog1 — не спит. Правило нужно на все виды суток:
-       без него вне ночи оба состояния выглядят одинаково (разнится только
-       пузырь), и кнопка «Моти» у гостя ничего не меняет. */
-    .m-dog0 #mochi-awake {{ display:none }}
-    .m-dog0 #mochi-sleep {{ display:inline }}
     .m-decor1 #wall {{ fill:{p['decor']} }}
     .m-decor1 #back {{ fill:{p['decor']} }}
     .m-secret1 #secret {{ display:inline }}
