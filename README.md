@@ -1,4 +1,9 @@
 <p align="center">
+  <b>Alexander Domanov — frontend developer.</b> Years of running real teams against real deadlines, then the shelf filled up with AI tooling and I started learning it in public: agents, evals, pipelines.<br>
+  <sub>Belarus, remote, Russian and English. Open to international teams. Right below is the room I built instead of a badge wall — a page, not a picture, for anyone who wants to play.</sub>
+</p>
+
+<p align="center">
 <!-- room:start -->
 <img src="https://alexander-domanov.github.io/Alexander-Domanov/assets/room/room-evening-e08383de52.svg" width="880" alt="the room of Mizu and Mochi: the view changes with the hour - morning, day, evening, night">
 <sub>the room above is not a picture — it is a live page: press the switches and the same state rides into the URL. <a href="https://alexander-domanov.github.io/console/room.html">step inside</a> · source <a href="https://github.com/Alexander-Domanov/console">Alexander-Domanov/console</a></sub>
