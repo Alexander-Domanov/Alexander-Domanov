@@ -2,31 +2,31 @@
 <defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#e2ecf7" stroke-width="1"/></pattern></defs><rect width="900" height="196" fill="#f2f7fd"/><rect width="900" height="196" fill="url(#g)"/>
 <rect x="8.5" y="8.5" width="883" height="179" fill="none" stroke="#a9c6e2"/>
 <text x="28.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#4d6f8e" letter-spacing="2.4">FIG. 5 — MATERIALS / BYTES OF CODE PER LANGUAGE</text>
-<text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#7b95ad" text-anchor="end" letter-spacing="1.4">REV 2026-10-04</text>
+<text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#7b95ad" text-anchor="end" letter-spacing="1.4">REV 2026-10-05</text>
 <line x1="28" y1="46" x2="872" y2="46" stroke="#cfe0f0"/>
 <line x1="28" y1="168" x2="872" y2="168" stroke="#cfe0f0"/>
 <text x="28.0" y="184.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#4d6f8e" letter-spacing="1.4">TOP 5 OF 9 LANGUAGES · BYTES OF CODE</text>
-<rect x="28.0" y="58" width="550.6" height="28" fill="#1a6ea8" stroke="#f2f7fd" stroke-width="1.5"/>
-<text x="38.0" y="77.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff">65%</text>
-<rect x="578.6" y="58" width="102.3" height="28" fill="#4b93c4" stroke="#f2f7fd" stroke-width="1.5"/>
-<text x="588.6" y="77.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#0d2438">12%</text>
-<rect x="680.8" y="58" width="88.6" height="28" fill="#7fb2d6" stroke="#f2f7fd" stroke-width="1.5"/>
-<text x="690.8" y="77.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#0d2438">11%</text>
-<rect x="769.5" y="58" width="46.7" height="28" fill="#a9cbe4" stroke="#f2f7fd" stroke-width="1.5"/>
-<rect x="816.2" y="58" width="31.8" height="28" fill="#cfe3f3" stroke="#f2f7fd" stroke-width="1.5"/>
+<rect x="28.0" y="58" width="543.1" height="28" fill="#1a6ea8" stroke="#f2f7fd" stroke-width="1.5"/>
+<text x="38.0" y="77.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#ffffff">64%</text>
+<rect x="571.1" y="58" width="111.0" height="28" fill="#4b93c4" stroke="#f2f7fd" stroke-width="1.5"/>
+<text x="581.1" y="77.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#0d2438">13%</text>
+<rect x="682.1" y="58" width="87.5" height="28" fill="#7fb2d6" stroke="#f2f7fd" stroke-width="1.5"/>
+<text x="692.1" y="77.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#0d2438">10%</text>
+<rect x="769.6" y="58" width="47.3" height="28" fill="#a9cbe4" stroke="#f2f7fd" stroke-width="1.5"/>
+<rect x="816.9" y="58" width="31.4" height="28" fill="#cfe3f3" stroke="#f2f7fd" stroke-width="1.5"/>
 <rect x="28" y="107" width="10" height="10" fill="#1a6ea8" stroke="#a9c6e2"/>
 <text x="46.0" y="116.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">TypeScript</text>
-<text x="452.0" y="116.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">65.2% · 941.8 KB</text>
+<text x="452.0" y="116.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">64.4% · 941.8 KB</text>
 <rect x="28" y="129" width="10" height="10" fill="#4b93c4" stroke="#a9c6e2"/>
 <text x="46.0" y="138.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">HTML</text>
-<text x="452.0" y="138.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">12.1% · 175.0 KB</text>
+<text x="452.0" y="138.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">13.2% · 192.5 KB</text>
 <rect x="28" y="151" width="10" height="10" fill="#7fb2d6" stroke="#a9c6e2"/>
 <text x="46.0" y="160.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">Python</text>
-<text x="452.0" y="160.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">10.5% · 151.6 KB</text>
+<text x="452.0" y="160.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">10.4% · 151.7 KB</text>
 <rect x="470" y="107" width="10" height="10" fill="#a9cbe4" stroke="#a9c6e2"/>
 <text x="488.0" y="116.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">CSS</text>
-<text x="894.0" y="116.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">5.5% · 79.9 KB</text>
+<text x="894.0" y="116.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">5.6% · 82.0 KB</text>
 <rect x="470" y="129" width="10" height="10" fill="#cfe3f3" stroke="#a9c6e2"/>
 <text x="488.0" y="138.0" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#0d2438">JavaScript</text>
-<text x="894.0" y="138.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">3.8% · 54.4 KB</text>
+<text x="894.0" y="138.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#4d6f8e" text-anchor="end">3.7% · 54.4 KB</text>
 </svg>
