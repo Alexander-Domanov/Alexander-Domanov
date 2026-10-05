@@ -1,9 +1,9 @@
 {
-  "name": "room-night-51ecf7917b.svg",
-  "moment": "night",
+  "name": "room-morning-fe8ed99a07.svg",
+  "moment": "morning",
   "state": "m-lamp0 m-music1 m-drums0 m-guitar0 m-dog1 m-decor0 m-secret0",
   "stateFrom": "guest",
-  "url": "https://alexander-domanov.github.io/Alexander-Domanov/assets/room/room-night-51ecf7917b.svg",
+  "url": "https://alexander-domanov.github.io/Alexander-Domanov/assets/room/room-morning-fe8ed99a07.svg",
   "moments": {
     "morning": "room-morning-fe8ed99a07.svg",
     "day": "room-day-242ea4b726.svg",
