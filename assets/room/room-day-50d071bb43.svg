@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" class="moment-day m-lamp0 m-music1 m-drums0 m-guitar0 m-dog1 m-decor0 m-secret0" role="img" aria-label="Mizu and Mochi's room, day">''
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" class="moment-day m-lamp1 m-music0 m-drums0 m-guitar0 m-dog0 m-decor0 m-secret0" role="img" aria-label="Mizu and Mochi's room, day">''
   <style>
-    @keyframes flicker { 0%,100% { opacity:0.02 } 43% { opacity:0.16 } 58% { opacity:0.05 } }
+    @keyframes flicker { 0%,100% { opacity:0.10 } 43% { opacity:0.24 } 58% { opacity:0.05 } }
     #lamp { animation: flicker 4.5s ease-in-out infinite; }
     @keyframes breathe { 0%,100% { transform: translateY(0px) } 50% { transform: translateY(-2.5px) } }
     #roommove { animation: breathe 11s ease-in-out infinite; }
@@ -70,7 +70,7 @@
       <path d="M600 280 v-70 h40 l-20 -26"/>
       <path d="M640 184 l-46 14" />
     </g>
-    <circle id="lamp" cx="612" cy="200" r="54" fill="#b9bcc4" opacity="0.02"/>
+    <circle id="lamp" cx="612" cy="200" r="54" fill="#b9bcc4" opacity="0.1"/>
     <!-- стол и экран -->
     <rect x="380" y="232" width="300" height="10" rx="3" fill="#2f3540" opacity="0.55"/>
     <path d="M400 280 v-38 M660 280 v-38" stroke="#2f3540" stroke-width="3" opacity="0.35"/>
@@ -203,7 +203,7 @@
   <!-- реплика -->
   <g>
     <rect x="40" y="16" width="620" height="34" rx="17" fill="#e0e6ee" opacity="0.95"/>
-    <text id="line" x="62" y="39" font-family="Georgia, serif" font-size="17" fill="#2f3540">Playing. Listen, if you are not in a hurry.</text>
+    <text id="line" x="62" y="39" font-family="Georgia, serif" font-size="17" fill="#2f3540">Working. Ask me, I answer to the point.</text>
   </g>
   <text x="862" y="348" font-family="Georgia, serif" font-size="13" fill="#2f3540" opacity="0.6" text-anchor="end">day</text>
 </svg>
