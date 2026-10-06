@@ -2,7 +2,7 @@
 <defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#e2ecf7" stroke-width="1"/></pattern></defs><rect width="900" height="278" fill="#f2f7fd"/><rect width="900" height="278" fill="url(#g)"/>
 <rect x="8.5" y="8.5" width="883" height="261" fill="none" stroke="#a9c6e2"/>
 <text x="28.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#4d6f8e" letter-spacing="2.4">FIG. 2 — LAST SHIPPED / PUBLIC COMMITS, NEWEST FIRST</text>
-<text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#7b95ad" text-anchor="end" letter-spacing="1.4">REV 2026-10-05</text>
+<text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#7b95ad" text-anchor="end" letter-spacing="1.4">REV 2026-10-06</text>
 <line x1="28" y1="46" x2="872" y2="46" stroke="#cfe0f0"/>
 <line x1="28" y1="250" x2="872" y2="250" stroke="#cfe0f0"/>
 <text x="28.0" y="266.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#4d6f8e" letter-spacing="1.4">LAST PUBLIC COMMIT 2026-10-05 · ONE ROW PER REPOSITORY</text>
@@ -12,7 +12,7 @@
 <line x1="28" y1="78" x2="872" y2="78" stroke="#a9c6e2"/>
 <text x="28.0" y="102.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#7b95ad">2026-10-05</text>
 <text x="120.0" y="102.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#1a6ea8">channel-pages</text>
-<text x="285.0" y="102.0" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0d2438">Add a searchable list, card styling, and a Markdown entry point</text>
+<text x="285.0" y="102.0" font-family="system-ui,-apple-system,sans-serif" font-size="12.5" fill="#0d2438">Setup: exact clone command in step 6, random-voice first run in step 5; troubleshooti…</text>
 <line x1="28" y1="112" x2="872" y2="112" stroke="#cfe0f0"/>
 <text x="28.0" y="134.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#7b95ad">2026-10-04</text>
 <text x="120.0" y="134.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#1a6ea8">console</text>
