@@ -2,7 +2,7 @@
 <defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#16304d" stroke-width="1"/></pattern></defs><rect width="900" height="232" fill="#0e2035"/><rect width="900" height="232" fill="url(#g)"/>
 <rect x="8.5" y="8.5" width="883" height="215" fill="none" stroke="#2f5480"/>
 <text x="28.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#93aec9" letter-spacing="2.4">FIG. 4 — ACTIVE DAYS PER MONTH / PUBLIC COMMIT ACTIVITY</text>
-<text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#63849f" text-anchor="end" letter-spacing="1.4">REV 2026-10-06</text>
+<text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#63849f" text-anchor="end" letter-spacing="1.4">REV 2026-10-07</text>
 <line x1="28" y1="46" x2="872" y2="46" stroke="#1f3a57"/>
 <line x1="28" y1="204" x2="872" y2="204" stroke="#1f3a57"/>
 <text x="28.0" y="220.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#93aec9" letter-spacing="1.4">IDLE MONTHS PRESERVED AS ZERO — MEASURED, NOT CURATED</text>
