@@ -2,7 +2,7 @@
 <defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#16304d" stroke-width="1"/></pattern></defs><rect width="900" height="250" fill="#0e2035"/><rect width="900" height="250" fill="url(#g)"/>
 <rect x="8.5" y="8.5" width="883" height="233" fill="none" stroke="#2f5480"/>
 <text x="28.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#93aec9" letter-spacing="2.4">FIG. 1 — IDENTITY</text>
-<text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#63849f" text-anchor="end" letter-spacing="1.4">REV 2026-10-07</text>
+<text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#63849f" text-anchor="end" letter-spacing="1.4">REV 2026-10-08</text>
 <line x1="28" y1="46" x2="872" y2="46" stroke="#1f3a57"/>
 <text x="28.0" y="92.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="30" fill="#dce8f5">ALEXANDER DOMANOV</text>
 <text x="28.0" y="120.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#7fd1f5">FRONTEND DEVELOPER — REACT / TYPESCRIPT / NEXT.JS</text>
