@@ -2,7 +2,7 @@
 <defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#16304d" stroke-width="1"/></pattern></defs><rect width="900" height="196" fill="#0e2035"/><rect width="900" height="196" fill="url(#g)"/>
 <rect x="8.5" y="8.5" width="883" height="179" fill="none" stroke="#2f5480"/>
 <text x="28.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#93aec9" letter-spacing="2.4">FIG. 5 — MATERIALS / BYTES OF CODE PER LANGUAGE</text>
-<text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#63849f" text-anchor="end" letter-spacing="1.4">REV 2026-10-07</text>
+<text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#63849f" text-anchor="end" letter-spacing="1.4">REV 2026-10-08</text>
 <line x1="28" y1="46" x2="872" y2="46" stroke="#1f3a57"/>
 <line x1="28" y1="168" x2="872" y2="168" stroke="#1f3a57"/>
 <text x="28.0" y="184.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" fill="#93aec9" letter-spacing="1.4">TOP 5 OF 9 LANGUAGES · BYTES OF CODE</text>
