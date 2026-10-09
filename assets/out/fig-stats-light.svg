@@ -2,7 +2,7 @@
 <defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#e2ecf7" stroke-width="1"/></pattern></defs><rect width="900" height="130" fill="#f2f7fd"/><rect width="900" height="130" fill="url(#g)"/>
 <rect x="8.5" y="8.5" width="883" height="113" fill="none" stroke="#a9c6e2"/>
 <text x="28.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#4d6f8e" letter-spacing="2.4">FIG. 3 — COUNTERS / LAST 12 MONTHS</text>
-<text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#7b95ad" text-anchor="end" letter-spacing="1.4">REV 2026-10-08</text>
+<text x="872.0" y="34.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#7b95ad" text-anchor="end" letter-spacing="1.4">REV 2026-10-09</text>
 <line x1="28" y1="46" x2="872" y2="46" stroke="#cfe0f0"/>
 <text x="26.0" y="86.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="26" fill="#0d2438">330</text>
 <text x="26.0" y="108.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8.5" fill="#4d6f8e" letter-spacing="1.5">CONTRIBUTIONS / 12 MO</text>
