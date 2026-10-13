@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T13:11:32+00:00",
+  "generated_at": "2026-10-13T12:43:32+00:00",
   "login": "Alexander-Domanov",
   "stats": {
     "months": [
@@ -52,10 +52,10 @@
         3
       ]
     ],
-    "contributions": 330,
+    "contributions": 359,
     "active_days": 50,
     "longest_run": 6,
-    "tracked_days": 366,
+    "tracked_days": 367,
     "last_active": "2026-10-05"
   },
   "shipped": [
@@ -68,8 +68,8 @@
     {
       "repo": "console",
       "date": "2026-10-04",
-      "message": "ci(console): \u043f\u0435\u0440\u0435\u0441\u043e\u0431\u0440\u0430\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u044b \u043f\u043e\u0441\u043b\u0435 \u043f\u0440\u0430\u0432\u043a\u0438 \u0437\u0430\u043b\u0430",
-      "sha": "f536f7b"
+      "message": "fix(console): the command list from the ?auto= URL no longer runs by itself \u2014 the hall offers it to the guest",
+      "sha": "9cb590e"
     },
     {
       "repo": "snake-arena",
